@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <!-- Content-Security-Policy is added at build time by vite.config.js -->
+    <title>Learn · Dental Anatomy 3D</title>
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="/first-paint.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="learn">
+    <div id="page-loader" role="status" aria-label="Loading">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 8C14 8 10 13 10 20c0 8 3 13 5 20 2 8 3 18 7 18s4-10 6-16c1-3 7-3 8 0 2 6 2 16 6 16s5-10 7-18c2-7 5-12 5-20 0-7-4-12-10-12-5 0-8 3-12 3s-7-3-12-3Z" />
+      </svg>
+    </div>
+    <header class="site-nav">
+      <a class="brand" href="./">Dental Anatomy <em>3D</em></a>
+      <ul>
+        <li><a class="tab" href="./">Home</a></li>
+        <li><a class="tab" href="./model.html">3D Model</a></li>
+        <li><a class="tab" href="./tooth.html">Inside a Tooth</a></li>
+        <li><a class="tab" href="./learn.html" aria-current="page">Learn</a></li>
+        <li><a class="tab" href="./sources.html">Sources</a></li>
+      </ul>
+      <button type="button" id="sign-in">Sign in</button>
+      <div id="user-menu" hidden>
+        <span id="user-email"></span>
+        <button type="button" id="sign-out">Sign out</button>
+      </div>
+    </header>
+
+    <div class="learn-layout">
+      <nav class="topic-tabs" aria-label="Topics">
+        <p class="topic-tabs-title">Topics</p>
+        <ul id="topic-list"></ul>
+      </nav>
+
+      <article id="topic" aria-live="polite">
+        <p class="topic-kicker">Dental assisting procedures</p>
+        <h1 id="topic-title"></h1>
+
+        <dl class="topic-meta">
+          <div>
+            <dt>What it's for</dt>
+            <dd id="topic-for"></dd>
+          </div>
+          <div>
+            <dt>Applies to</dt>
+            <dd><strong id="topic-applies"></strong> <span id="topic-applies-note"></span></dd>
+          </div>
+          <div>
+            <dt>Where this comes from</dt>
+            <dd><ul id="topic-sources"></ul></dd>
+          </div>
+        </dl>
+
+        <div id="topic-sections"></div>
+
+        <p class="topic-footer">
+          Last checked against the sources: <span id="topic-checked"></span>. Summarized for students; always follow your office's written
+          procedures and your state's rules.
+        </p>
+      </article>
+    </div>
+
+    <button type="button" id="highlight-action" class="primary" hidden></button>
+
+    <dialog id="auth-dialog">
+      <form id="auth-form">
+        <h2 id="auth-title">Sign in</h2>
+        <p class="auth-note">Sign in to keep your highlights. Only you can see them.</p>
+        <label>Email <input id="auth-email" type="email" autocomplete="email" required maxlength="254" /></label>
+        <label>Password <input id="auth-password" type="password" autocomplete="current-password" required minlength="8" maxlength="72" /></label>
+        <p id="auth-message" role="alert"></p>
+        <div class="auth-actions">
+          <button type="submit" id="auth-submit" class="primary">Sign in</button>
+          <button type="button" id="auth-cancel">Cancel</button>
+        </div>
+        <button type="button" id="auth-switch" class="link"></button>
+      </form>
+    </dialog>
+
+    <div class="desktop-only">
+      <p>This app is designed for desktop computers.<br />Please open it on a computer with a larger screen.</p>
+    </div>
+
+    <script type="module" src="/src/learn.js"></script>
+  </body>
+</html>

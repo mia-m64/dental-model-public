@@ -1,0 +1,1983 @@
+{
+  "layers": [
+    {
+      "id": "teeth",
+      "name": "Teeth",
+      "color": "#f2ede0"
+    },
+    {
+      "id": "bone",
+      "name": "Bones & joints",
+      "color": "#d9cfb8"
+    },
+    {
+      "id": "soft",
+      "name": "Gums & oral tissue",
+      "color": "#e58a95"
+    },
+    {
+      "id": "glands",
+      "name": "Salivary glands",
+      "color": "#e8c35a"
+    },
+    {
+      "id": "muscles",
+      "name": "Muscles",
+      "color": "#b9483f"
+    },
+    {
+      "id": "nerves",
+      "name": "Nerves",
+      "color": "#f5d742"
+    },
+    {
+      "id": "arteries",
+      "name": "Arteries",
+      "color": "#e0302b"
+    },
+    {
+      "id": "veins",
+      "name": "Veins",
+      "color": "#3a6fe0"
+    }
+  ],
+  "sources": {
+    "os-mouth": {
+      "title": "OpenStax Anatomy & Physiology 2e, §23.3 The Mouth, Pharynx, and Esophagus",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+      "license": "CC BY 4.0"
+    },
+    "os-skull": {
+      "title": "OpenStax Anatomy & Physiology 2e, §7.2 The Skull",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+      "license": "CC BY 4.0"
+    },
+    "os-muscles": {
+      "title": "OpenStax Anatomy & Physiology 2e, §11.3 Axial Muscles of the Head, Neck, and Back",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+      "license": "CC BY 4.0"
+    },
+    "os-pns": {
+      "title": "OpenStax Anatomy & Physiology 2e, §13.4 The Peripheral Nervous System",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+      "license": "CC BY 4.0"
+    },
+    "os-circ": {
+      "title": "OpenStax Anatomy & Physiology 2e, §20.5 Circulatory Pathways",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+      "license": "CC BY 4.0"
+    },
+    "sp-dentition": {
+      "title": "StatPearls: Anatomy, Permanent Dentition",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK570590/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-v3": {
+      "title": "StatPearls: Anatomy, Head and Neck, Mandibular Nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507820/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-v2": {
+      "title": "StatPearls: Anatomy, Head and Neck, Maxillary Nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK542277/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-alveolar-n": {
+      "title": "StatPearls: Anatomy, Head and Neck: Alveolar Nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546712/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-ianb": {
+      "title": "StatPearls: Inferior Alveolar Nerve Block",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK564368/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-lingual-n": {
+      "title": "StatPearls: Anatomy, Head and Neck, Lingual Nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546652/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-mental-n": {
+      "title": "StatPearls: Anatomy, Head and Neck, Mental Nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546630/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-buccal-n": {
+      "title": "StatPearls: Anatomy, Head and Neck: Buccal Nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560732/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-mylohyoid-n": {
+      "title": "StatPearls: Anatomy, Head and Neck, Mylohyoid Nerve",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546646/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-chorda": {
+      "title": "StatPearls: Anatomy, Head and Neck, Chorda Tympani",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546586/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-facial-n": {
+      "title": "StatPearls: Facial Nerve Anatomy and Clinical Applications",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554569/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-max-a": {
+      "title": "StatPearls: Anatomy, Head and Neck, Maxillary Artery",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK542301/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-ia-a": {
+      "title": "StatPearls: Anatomy, Head and Neck: Inferior Alveolar Arteries",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547736/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-facial-a": {
+      "title": "StatPearls: Anatomy, Head and Neck: Facial Artery",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK536932/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-labial-a": {
+      "title": "StatPearls: Anatomy, Head and Neck: Labial Artery",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546631/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-carotid": {
+      "title": "StatPearls: Anatomy, Head and Neck: Carotid Arteries",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545238/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-mandible": {
+      "title": "StatPearls: Anatomy, Head and Neck, Mandible",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532292/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-maxilla": {
+      "title": "StatPearls: Anatomy, Head and Neck, Maxilla",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538527/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-skull": {
+      "title": "StatPearls: Anatomy, Head and Neck, Skull",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499834/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-sphenoid": {
+      "title": "StatPearls: Anatomy, Sphenoid Bone",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544308/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-zygomatic": {
+      "title": "StatPearls: Anatomy, Head and Neck, Zygomatic",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544257/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-hyoid": {
+      "title": "StatPearls: Anatomy, Head and Neck: Hyoid Bone",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539726/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-tmj": {
+      "title": "StatPearls: Anatomy, Head and Neck, Temporomandibular Joint",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538486/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-gingiva": {
+      "title": "StatPearls: Anatomy, Head and Neck, Oral Gingiva",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560662/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-tongue": {
+      "title": "StatPearls: Anatomy, Head and Neck, Tongue",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507782/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-palate": {
+      "title": "StatPearls: Anatomy, Head and Neck, Palate",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557817/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-oral": {
+      "title": "StatPearls: Anatomy, Head and Neck, Oral Cavity (Mouth)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545271/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-salivary": {
+      "title": "StatPearls: Anatomy, Head and Neck, Salivary Glands",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538325/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-parotid": {
+      "title": "StatPearls: Anatomy, Head and Neck, Parotid Gland",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534225/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-submandibular": {
+      "title": "StatPearls: Anatomy, Head and Neck, Submandibular Gland",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK542272/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-sublingual": {
+      "title": "StatPearls: Anatomy, Head and Neck, Sublingual Gland",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535426/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-masseter": {
+      "title": "StatPearls: Anatomy, Head and Neck, Masseter Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539869/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-med-ptery": {
+      "title": "StatPearls: Anatomy, Head and Neck, Medial Pterygoid Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546588/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-lat-ptery": {
+      "title": "StatPearls: Anatomy, Head and Neck, Lateral Pterygoid Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549799/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-buccinator": {
+      "title": "StatPearls: Anatomy, Head and Neck: Buccinator Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546678/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-orb-oris": {
+      "title": "StatPearls: Anatomy, Head and Neck, Orbicularis Oris Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545169/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-facial-m": {
+      "title": "StatPearls: Anatomy, Head and Neck: Facial Muscles",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK493209/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-lls": {
+      "title": "StatPearls: Anatomy, Head and Neck: Levator Labii Superioris Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541031/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-lao": {
+      "title": "StatPearls: Anatomy, Head and Neck: Levator Anguli Oris Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547688/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-suprahyoid": {
+      "title": "StatPearls: Anatomy, Head and Neck: Suprahyoid Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546710/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-mylohyoid-m": {
+      "title": "StatPearls: Anatomy, Head and Neck, Mylohyoid Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545293/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-digastric": {
+      "title": "StatPearls: Anatomy, Head and Neck, Digastric Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544352/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-stylohyoid": {
+      "title": "StatPearls: Anatomy, Head and Neck, Stylohyoid Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547653/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-genioglossus": {
+      "title": "StatPearls: Anatomy, Head and Neck: Genioglossus Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545141/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    },
+    "sp-hyoglossus": {
+      "title": "StatPearls: Anatomy, Head and Neck: Hyoglossus Muscle",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK574565/",
+      "license": "CC BY-NC-ND 4.0, link only"
+    }
+  },
+  "structures": [
+    {
+      "id": "tooth_8",
+      "name": "#8 — Right maxillary central incisor",
+      "layer": "teeth",
+      "blender": "Upper medial incisor.r",
+      "bilateral": false,
+      "universal": 8,
+      "summary": "Single-rooted front tooth with a thin incisal edge for cutting food. Usually erupts at about 7–8 years.",
+      "assistant": "Universal number #8, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_9",
+      "name": "#9 — Left maxillary central incisor",
+      "layer": "teeth",
+      "blender": "Upper medial incisor.l",
+      "bilateral": false,
+      "universal": 9,
+      "summary": "Single-rooted front tooth with a thin incisal edge for cutting food. Usually erupts at about 7–8 years.",
+      "assistant": "Universal number #9, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_7",
+      "name": "#7 — Right maxillary lateral incisor",
+      "layer": "teeth",
+      "blender": "Upper lateral incisor.r",
+      "bilateral": false,
+      "universal": 7,
+      "summary": "Single-rooted cutting tooth, smaller than the central incisor. Usually erupts at about 8–9 years.",
+      "assistant": "Universal number #7, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_10",
+      "name": "#10 — Left maxillary lateral incisor",
+      "layer": "teeth",
+      "blender": "Upper lateral incisor.l",
+      "bilateral": false,
+      "universal": 10,
+      "summary": "Single-rooted cutting tooth, smaller than the central incisor. Usually erupts at about 8–9 years.",
+      "assistant": "Universal number #10, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_6",
+      "name": "#6 — Right maxillary canine",
+      "layer": "teeth",
+      "blender": "Upper canine.r",
+      "bilateral": false,
+      "universal": 6,
+      "summary": "Pointed cusp for tearing food. It has the longest root of any tooth, which makes it a strong anchor at the corner of the arch. Usually erupts at about 11–12 years.",
+      "assistant": "Universal number #6, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_11",
+      "name": "#11 — Left maxillary canine",
+      "layer": "teeth",
+      "blender": "Upper canine.l",
+      "bilateral": false,
+      "universal": 11,
+      "summary": "Pointed cusp for tearing food. It has the longest root of any tooth, which makes it a strong anchor at the corner of the arch. Usually erupts at about 11–12 years.",
+      "assistant": "Universal number #11, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_5",
+      "name": "#5 — Right maxillary first premolar",
+      "layer": "teeth",
+      "blender": "Upper first premolar.r",
+      "bilateral": false,
+      "universal": 5,
+      "summary": "Two-cusped tooth (buccal and lingual) that usually has two roots. Usually erupts at about 10–11 years.",
+      "assistant": "Universal number #5, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_12",
+      "name": "#12 — Left maxillary first premolar",
+      "layer": "teeth",
+      "blender": "Upper first premolar.l",
+      "bilateral": false,
+      "universal": 12,
+      "summary": "Two-cusped tooth (buccal and lingual) that usually has two roots. Usually erupts at about 10–11 years.",
+      "assistant": "Universal number #12, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_4",
+      "name": "#4 — Right maxillary second premolar",
+      "layer": "teeth",
+      "blender": "Upper second premolar.r",
+      "bilateral": false,
+      "universal": 4,
+      "summary": "Two-cusped tooth, usually with a single root. Usually erupts at about 10–12 years.",
+      "assistant": "Universal number #4, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_13",
+      "name": "#13 — Left maxillary second premolar",
+      "layer": "teeth",
+      "blender": "Upper second premolar.l",
+      "bilateral": false,
+      "universal": 13,
+      "summary": "Two-cusped tooth, usually with a single root. Usually erupts at about 10–12 years.",
+      "assistant": "Universal number #13, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_3",
+      "name": "#3 — Right maxillary first molar",
+      "layer": "teeth",
+      "blender": "Upper first molar tooth.r",
+      "bilateral": false,
+      "universal": 3,
+      "summary": "Large grinding tooth with three roots (mesiobuccal, distobuccal and palatal). Usually erupts at about 6–7 years. Its roots lie close to the floor of the maxillary sinus.",
+      "assistant": "Universal number #3, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_14",
+      "name": "#14 — Left maxillary first molar",
+      "layer": "teeth",
+      "blender": "Upper first molar tooth.l",
+      "bilateral": false,
+      "universal": 14,
+      "summary": "Large grinding tooth with three roots (mesiobuccal, distobuccal and palatal). Usually erupts at about 6–7 years. Its roots lie close to the floor of the maxillary sinus.",
+      "assistant": "Universal number #14, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_2",
+      "name": "#2 — Right maxillary second molar",
+      "layer": "teeth",
+      "blender": "Upper second molar tooth.r",
+      "bilateral": false,
+      "universal": 2,
+      "summary": "Grinding tooth with three roots, usually smaller than the first molar. Usually erupts at about 12–13 years. The parotid duct opens into the cheek opposite this tooth.",
+      "assistant": "Universal number #2, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_1",
+      "name": "#1 — Right maxillary third molar (wisdom tooth)",
+      "layer": "teeth",
+      "blender": "Upper third molar tooth.r",
+      "bilateral": false,
+      "universal": 1,
+      "summary": "Last tooth in the arch, behind the second molar. Usually erupts at about 17–21 years, if at all: third molars are often impacted (unable to erupt fully) or missing. Upper third molars sit close to the maxillary sinus.",
+      "assistant": "Universal number #1, upper right (UR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "traced": "The source model has no third molars: this one is a scaled copy of the second molar, placed one tooth further back.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_15",
+      "name": "#15 — Left maxillary second molar",
+      "layer": "teeth",
+      "blender": "Upper second molar tooth.l",
+      "bilateral": false,
+      "universal": 15,
+      "summary": "Grinding tooth with three roots, usually smaller than the first molar. Usually erupts at about 12–13 years. The parotid duct opens into the cheek opposite this tooth.",
+      "assistant": "Universal number #15, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_16",
+      "name": "#16 — Left maxillary third molar (wisdom tooth)",
+      "layer": "teeth",
+      "blender": "Upper third molar tooth.l",
+      "bilateral": false,
+      "universal": 16,
+      "summary": "Last tooth in the arch, behind the second molar. Usually erupts at about 17–21 years, if at all: third molars are often impacted (unable to erupt fully) or missing. Upper third molars sit close to the maxillary sinus.",
+      "assistant": "Universal number #16, upper left (UL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "traced": "The source model has no third molars: this one is a scaled copy of the second molar, placed one tooth further back.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_25",
+      "name": "#25 — Right mandibular central incisor",
+      "layer": "teeth",
+      "blender": "Lower medial incisor.r",
+      "bilateral": false,
+      "universal": 25,
+      "summary": "The smallest permanent tooth: single root, thin incisal edge. Usually erupts at about 6–7 years.",
+      "assistant": "Universal number #25, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_24",
+      "name": "#24 — Left mandibular central incisor",
+      "layer": "teeth",
+      "blender": "Lower medial incisor.l",
+      "bilateral": false,
+      "universal": 24,
+      "summary": "The smallest permanent tooth: single root, thin incisal edge. Usually erupts at about 6–7 years.",
+      "assistant": "Universal number #24, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_26",
+      "name": "#26 — Right mandibular lateral incisor",
+      "layer": "teeth",
+      "blender": "Lower lateral incisor.r",
+      "bilateral": false,
+      "universal": 26,
+      "summary": "Single-rooted cutting tooth, slightly larger than the lower central incisor. Usually erupts at about 7–8 years.",
+      "assistant": "Universal number #26, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_23",
+      "name": "#23 — Left mandibular lateral incisor",
+      "layer": "teeth",
+      "blender": "Lower lateral incisor.l",
+      "bilateral": false,
+      "universal": 23,
+      "summary": "Single-rooted cutting tooth, slightly larger than the lower central incisor. Usually erupts at about 7–8 years.",
+      "assistant": "Universal number #23, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_27",
+      "name": "#27 — Right mandibular canine",
+      "layer": "teeth",
+      "blender": "Lower canine.r",
+      "bilateral": false,
+      "universal": 27,
+      "summary": "Pointed tearing tooth with a long single root. Usually erupts at about 9–10 years.",
+      "assistant": "Universal number #27, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_22",
+      "name": "#22 — Left mandibular canine",
+      "layer": "teeth",
+      "blender": "Lower canine.l",
+      "bilateral": false,
+      "universal": 22,
+      "summary": "Pointed tearing tooth with a long single root. Usually erupts at about 9–10 years.",
+      "assistant": "Universal number #22, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_28",
+      "name": "#28 — Right mandibular first premolar",
+      "layer": "teeth",
+      "blender": "Lower first premolar.r",
+      "bilateral": false,
+      "universal": 28,
+      "summary": "Single-rooted tooth with a large buccal cusp and a small lingual cusp. Usually erupts at about 10–12 years.",
+      "assistant": "Universal number #28, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_21",
+      "name": "#21 — Left mandibular first premolar",
+      "layer": "teeth",
+      "blender": "Lower first premolar.l",
+      "bilateral": false,
+      "universal": 21,
+      "summary": "Single-rooted tooth with a large buccal cusp and a small lingual cusp. Usually erupts at about 10–12 years.",
+      "assistant": "Universal number #21, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_29",
+      "name": "#29 — Right mandibular second premolar",
+      "layer": "teeth",
+      "blender": "Lower second premolar.r",
+      "bilateral": false,
+      "universal": 29,
+      "summary": "Single-rooted premolar. The mental foramen usually lies near the apex of this tooth or between the two premolars. Usually erupts at about 11–12 years.",
+      "assistant": "Universal number #29, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_20",
+      "name": "#20 — Left mandibular second premolar",
+      "layer": "teeth",
+      "blender": "Lower second premolar.l",
+      "bilateral": false,
+      "universal": 20,
+      "summary": "Single-rooted premolar. The mental foramen usually lies near the apex of this tooth or between the two premolars. Usually erupts at about 11–12 years.",
+      "assistant": "Universal number #20, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_30",
+      "name": "#30 — Right mandibular first molar",
+      "layer": "teeth",
+      "blender": "Lower first molar tooth.r",
+      "bilateral": false,
+      "universal": 30,
+      "summary": "Large grinding tooth with two roots (mesial and distal). Usually erupts at about 6–7 years, often the first permanent tooth to appear.",
+      "assistant": "Universal number #30, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_19",
+      "name": "#19 — Left mandibular first molar",
+      "layer": "teeth",
+      "blender": "Lower first molar tooth.l",
+      "bilateral": false,
+      "universal": 19,
+      "summary": "Large grinding tooth with two roots (mesial and distal). Usually erupts at about 6–7 years, often the first permanent tooth to appear.",
+      "assistant": "Universal number #19, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_31",
+      "name": "#31 — Right mandibular second molar",
+      "layer": "teeth",
+      "blender": "Lower second molar tooth.r",
+      "bilateral": false,
+      "universal": 31,
+      "summary": "Two-rooted grinding tooth. Usually erupts at about 11–13 years.",
+      "assistant": "Universal number #31, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_32",
+      "name": "#32 — Right mandibular third molar (wisdom tooth)",
+      "layer": "teeth",
+      "blender": "Lower third molar tooth.r",
+      "bilateral": false,
+      "universal": 32,
+      "summary": "Last tooth in the arch, behind the second molar. Usually erupts at about 17–21 years, if at all: third molars are often impacted (unable to erupt fully) or missing. Lower third molars sit near the inferior alveolar nerve in the mandibular canal.",
+      "assistant": "Universal number #32, lower right (LR) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "traced": "The source model has no third molars: this one is a scaled copy of the second molar, placed one tooth further back.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_18",
+      "name": "#18 — Left mandibular second molar",
+      "layer": "teeth",
+      "blender": "Lower second molar tooth.l",
+      "bilateral": false,
+      "universal": 18,
+      "summary": "Two-rooted grinding tooth. Usually erupts at about 11–13 years.",
+      "assistant": "Universal number #18, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "tooth_17",
+      "name": "#17 — Left mandibular third molar (wisdom tooth)",
+      "layer": "teeth",
+      "blender": "Lower third molar tooth.l",
+      "bilateral": false,
+      "universal": 17,
+      "summary": "Last tooth in the arch, behind the second molar. Usually erupts at about 17–21 years, if at all: third molars are often impacted (unable to erupt fully) or missing. Lower third molars sit near the inferior alveolar nerve in the mandibular canal.",
+      "assistant": "Universal number #17, lower left (LL) quadrant. In the US, teeth are numbered 1–32 starting at the upper right third molar.",
+      "traced": "The source model has no third molars: this one is a scaled copy of the second molar, placed one tooth further back.",
+      "sources": [
+        "sp-dentition",
+        "os-mouth"
+      ]
+    },
+    {
+      "id": "bone_mandible",
+      "name": "Mandible (lower jaw)",
+      "layer": "bone",
+      "blender": "Mandible",
+      "bilateral": false,
+      "summary": "The only movable bone of the skull. Its alveolar process holds the lower teeth; the ramus rises to the condyle (part of the TMJ) and the coronoid process (where temporalis attaches). The mandibular foramen on the inner ramus leads into the mandibular canal, which carries the inferior alveolar nerve and vessels; the mental foramen opens on the outer surface near the premolars.",
+      "assistant": "Landmarks for the inferior alveolar nerve block: the coronoid notch, the pterygomandibular raphe and the mandibular foramen on the medial side of the ramus.",
+      "sources": [
+        "os-skull",
+        "sp-mandible"
+      ]
+    },
+    {
+      "id": "bone_maxilla",
+      "name": "Maxilla (upper jaw)",
+      "layer": "bone",
+      "blender": "Maxilla",
+      "bilateral": true,
+      "summary": "Paired bone that forms the upper jaw. Its alveolar process holds the upper teeth, its palatine process forms most of the hard palate, and its body contains the maxillary sinus.",
+      "assistant": "The roots of upper premolars and molars can sit right under the maxillary sinus, so a sinus infection can feel like a toothache, and extractions can open into the sinus.",
+      "sources": [
+        "os-skull",
+        "sp-maxilla"
+      ]
+    },
+    {
+      "id": "bone_palatine",
+      "name": "Palatine bone",
+      "layer": "bone",
+      "blender": "Palatine bone",
+      "bilateral": true,
+      "summary": "L-shaped bone that forms the back part of the hard palate. The greater palatine foramen, near the upper third molar, carries the greater palatine nerve and vessels to the palate.",
+      "assistant": "The greater palatine block is given near the greater palatine foramen to numb the palatal tissue of the upper premolars and molars.",
+      "sources": [
+        "os-skull",
+        "sp-palate"
+      ]
+    },
+    {
+      "id": "bone_zygomatic",
+      "name": "Zygomatic bone (cheekbone)",
+      "layer": "bone",
+      "blender": "Zygomatic bone",
+      "bilateral": true,
+      "summary": "Forms the prominence of the cheek and part of the orbit. Together with the temporal bone it forms the zygomatic arch, where the masseter muscle originates.",
+      "sources": [
+        "os-skull",
+        "sp-zygomatic"
+      ]
+    },
+    {
+      "id": "bone_temporal",
+      "name": "Temporal bone",
+      "layer": "bone",
+      "blender": "Temporal bone",
+      "bilateral": true,
+      "summary": "Forms the side and base of the skull and houses the ear. Its mandibular fossa receives the condyle of the mandible to form the temporomandibular joint (TMJ).",
+      "sources": [
+        "os-skull",
+        "sp-skull"
+      ]
+    },
+    {
+      "id": "bone_sphenoid",
+      "name": "Sphenoid bone",
+      "layer": "bone",
+      "blender": "Sphenoid bone",
+      "bilateral": false,
+      "summary": "Central bone of the skull base. Its pterygoid plates anchor the medial and lateral pterygoid muscles. The maxillary nerve (V2) leaves the skull through its foramen rotundum and the mandibular nerve (V3) through its foramen ovale.",
+      "sources": [
+        "os-skull",
+        "sp-sphenoid"
+      ]
+    },
+    {
+      "id": "bone_hyoid",
+      "name": "Hyoid bone",
+      "layer": "bone",
+      "blender": "Hyoid bone",
+      "bilateral": false,
+      "summary": "U-shaped bone in the upper neck that does not join any other bone. It anchors the tongue and the suprahyoid and infrahyoid muscles, which move it during swallowing and speech.",
+      "sources": [
+        "os-skull",
+        "sp-hyoid"
+      ]
+    },
+    {
+      "id": "bone_frontal",
+      "name": "Frontal bone",
+      "layer": "bone",
+      "blender": "Frontal bone",
+      "bilateral": false,
+      "summary": "Part of the skull, shown here for orientation. The frontal bone is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "bone_parietal",
+      "name": "Parietal bone",
+      "layer": "bone",
+      "blender": "Parietal bone",
+      "bilateral": true,
+      "summary": "Part of the skull, shown here for orientation. The parietal bone is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "bone_occipital",
+      "name": "Occipital bone",
+      "layer": "bone",
+      "blender": "Occipital bone",
+      "bilateral": false,
+      "summary": "Part of the skull, shown here for orientation. The occipital bone is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "bone_ethmoid",
+      "name": "Ethmoid bone",
+      "layer": "bone",
+      "blender": "Ethmoid bone",
+      "bilateral": false,
+      "summary": "Part of the skull, shown here for orientation. The ethmoid bone is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "bone_nasal",
+      "name": "Nasal bone",
+      "layer": "bone",
+      "blender": "Nasal bone",
+      "bilateral": true,
+      "summary": "Part of the skull, shown here for orientation. The nasal bone is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "bone_lacrimal",
+      "name": "Lacrimal bone",
+      "layer": "bone",
+      "blender": "Lacrimal bone",
+      "bilateral": true,
+      "summary": "Part of the skull, shown here for orientation. The lacrimal bone is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "bone_vomer",
+      "name": "Vomer",
+      "layer": "bone",
+      "blender": "Vomer",
+      "bilateral": false,
+      "summary": "Part of the skull, shown here for orientation. The vomer is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "bone_concha",
+      "name": "Inferior nasal concha",
+      "layer": "bone",
+      "blender": "Inferior nasal concha bone",
+      "bilateral": true,
+      "summary": "Part of the skull, shown here for orientation. The inferior nasal concha is not directly involved in dental procedures.",
+      "sources": [
+        "os-skull"
+      ]
+    },
+    {
+      "id": "tmj_disc",
+      "name": "Articular disc of the TMJ",
+      "layer": "bone",
+      "blender": "Articular disc of temporomandibular joint",
+      "bilateral": true,
+      "summary": "Fibrocartilage disc between the mandibular condyle and the temporal bone. It divides the TMJ into upper and lower compartments, allowing both hinge and gliding movements when the mouth opens.",
+      "assistant": "Clicking or popping when the patient opens can come from the disc moving out of position (disc displacement).",
+      "sources": [
+        "sp-tmj"
+      ]
+    },
+    {
+      "id": "tmj_capsule",
+      "name": "TMJ articular capsule",
+      "layer": "bone",
+      "blender": "Articular capsule of temporomandibular joint",
+      "bilateral": true,
+      "summary": "Fibrous sleeve that encloses the temporomandibular joint and attaches to the temporal bone and the neck of the condyle.",
+      "sources": [
+        "sp-tmj"
+      ]
+    },
+    {
+      "id": "lig_sphenomandibular",
+      "name": "Sphenomandibular ligament",
+      "layer": "bone",
+      "blender": "Sphenomandibular ligament",
+      "bilateral": true,
+      "summary": "Ligament running from the sphenoid spine to the lingula next to the mandibular foramen. It is an accessory ligament of the TMJ.",
+      "assistant": "During an inferior alveolar nerve block, the needle tip lies just lateral to this ligament, near where the nerve enters the mandibular foramen.",
+      "sources": [
+        "sp-tmj",
+        "sp-ianb"
+      ]
+    },
+    {
+      "id": "lig_stylomandibular",
+      "name": "Stylomandibular ligament",
+      "layer": "bone",
+      "blender": "Stylomandibular ligament",
+      "bilateral": true,
+      "summary": "Ligament from the styloid process of the temporal bone to the angle of the mandible. It is an accessory ligament of the TMJ that limits forward movement of the jaw.",
+      "sources": [
+        "sp-tmj"
+      ]
+    },
+    {
+      "id": "gingiva",
+      "name": "Gingiva (gums)",
+      "layer": "soft",
+      "blender": "Gingiva",
+      "bilateral": false,
+      "summary": "The oral mucosa that surrounds the necks of the teeth and covers the alveolar bone. Healthy gingiva is pink and firm and fits tightly around each tooth.",
+      "assistant": "Bleeding, redness or swelling of the gums is an early sign of gingivitis.",
+      "sources": [
+        "os-mouth",
+        "sp-gingiva"
+      ]
+    },
+    {
+      "id": "tongue",
+      "name": "Tongue",
+      "layer": "soft",
+      "blender": "Tongue",
+      "bilateral": false,
+      "summary": "Muscular organ on the floor of the mouth that moves food during chewing and swallowing and is needed for speech. It carries taste buds. General sensation of the front two-thirds comes from the lingual nerve and of the back third from the glossopharyngeal nerve.",
+      "sources": [
+        "os-mouth",
+        "sp-tongue"
+      ]
+    },
+    {
+      "id": "soft_palate",
+      "name": "Soft palate",
+      "layer": "soft",
+      "blender": "Soft palate",
+      "bilateral": false,
+      "summary": "The movable, muscular back part of the roof of the mouth. It rises during swallowing to close off the nasal cavity.",
+      "assistant": "Touching the soft palate can trigger the gag reflex, so take care when placing radiograph sensors and impression trays.",
+      "sources": [
+        "os-mouth",
+        "sp-palate"
+      ]
+    },
+    {
+      "id": "uvula",
+      "name": "Uvula",
+      "layer": "soft",
+      "blender": "Uvula of palate",
+      "bilateral": false,
+      "summary": "Small fleshy projection that hangs from the back edge of the soft palate.",
+      "sources": [
+        "os-mouth",
+        "sp-palate"
+      ]
+    },
+    {
+      "id": "gland_parotid",
+      "name": "Parotid gland",
+      "layer": "glands",
+      "blender": "Parotid gland",
+      "bilateral": true,
+      "summary": "The largest salivary gland, in front of and below the ear. It produces watery (serous) saliva. The facial nerve passes through it.",
+      "assistant": "If anesthetic is injected too far back during an inferior alveolar nerve block it can reach the parotid gland and the facial nerve, causing temporary weakness of the face on that side.",
+      "sources": [
+        "os-mouth",
+        "sp-parotid"
+      ]
+    },
+    {
+      "id": "gland_submandibular",
+      "name": "Submandibular gland",
+      "layer": "glands",
+      "blender": "Submandibular gland",
+      "bilateral": true,
+      "summary": "Salivary gland under the body of the mandible. It produces most of the saliva at rest.",
+      "sources": [
+        "os-mouth",
+        "sp-submandibular"
+      ]
+    },
+    {
+      "id": "gland_sublingual",
+      "name": "Sublingual gland",
+      "layer": "glands",
+      "blender": "Sublingual gland",
+      "bilateral": true,
+      "summary": "The smallest major salivary gland, in the floor of the mouth under the tongue. It drains through several small ducts.",
+      "sources": [
+        "os-mouth",
+        "sp-sublingual"
+      ]
+    },
+    {
+      "id": "duct_parotid",
+      "name": "Parotid (Stensen's) duct",
+      "layer": "glands",
+      "blender": "Parotid duct",
+      "bilateral": true,
+      "summary": "Duct that carries saliva from the parotid gland across the masseter, through the buccinator, and into the cheek opposite the upper second molar.",
+      "assistant": "The opening appears as a small bump on the cheek (the parotid papilla) next to the upper second molar. Cotton rolls are placed here to control saliva.",
+      "sources": [
+        "os-mouth",
+        "sp-parotid"
+      ]
+    },
+    {
+      "id": "duct_submandibular",
+      "name": "Submandibular (Wharton's) duct",
+      "layer": "glands",
+      "blender": "Submandibular duct",
+      "bilateral": true,
+      "summary": "Duct that carries saliva from the submandibular gland forward in the floor of the mouth and opens on the sublingual caruncle beside the lingual frenum.",
+      "sources": [
+        "os-mouth",
+        "sp-submandibular"
+      ]
+    },
+    {
+      "id": "n_trigeminal",
+      "name": "Trigeminal nerve (CN V)",
+      "layer": "nerves",
+      "blender": "Trigeminal nerve (V)",
+      "bilateral": true,
+      "summary": "The fifth cranial nerve and the main sensory nerve of the face, teeth and mouth. It splits into three divisions: ophthalmic (V1), maxillary (V2) and mandibular (V3). V3 also carries the motor fibers to the muscles of chewing.",
+      "assistant": "Almost all dental local anesthesia targets branches of V2 (upper teeth) or V3 (lower teeth).",
+      "sources": [
+        "os-pns",
+        "sp-v3"
+      ]
+    },
+    {
+      "id": "n_trigeminal_sensory",
+      "name": "Sensory root of trigeminal nerve",
+      "layer": "nerves",
+      "blender": "Sensory root of trigeminal nerve",
+      "bilateral": true,
+      "summary": "The large root of the trigeminal nerve that carries touch, pain and temperature from the face, teeth and mouth into the brainstem.",
+      "sources": [
+        "os-pns"
+      ]
+    },
+    {
+      "id": "n_trigeminal_motor",
+      "name": "Motor root of trigeminal nerve",
+      "layer": "nerves",
+      "blender": "Motor root of trigeminal nerve",
+      "bilateral": true,
+      "summary": "The small root of the trigeminal nerve. It joins the mandibular division (V3) and supplies the muscles of mastication.",
+      "sources": [
+        "os-pns",
+        "sp-v3"
+      ]
+    },
+    {
+      "id": "n_ophthalmic",
+      "name": "Ophthalmic nerve (V1)",
+      "layer": "nerves",
+      "blender": "Ophthalmic nerve",
+      "bilateral": true,
+      "summary": "First division of the trigeminal nerve. It is sensory only, to the forehead, upper eyelid, eye and nose. It does not supply the teeth.",
+      "sources": [
+        "os-pns"
+      ]
+    },
+    {
+      "id": "n_maxillary",
+      "name": "Maxillary nerve (V2)",
+      "layer": "nerves",
+      "blender": "Maxillary nerve",
+      "bilateral": true,
+      "summary": "Second division of the trigeminal nerve. It is sensory only. It leaves the skull through the foramen rotundum into the pterygopalatine fossa, gives the posterior superior alveolar nerve and the palatine and nasopalatine nerves, then enters the orbit and continues as the infraorbital nerve.",
+      "sources": [
+        "os-pns",
+        "sp-v2",
+        "sp-alveolar-n"
+      ]
+    },
+    {
+      "id": "n_infraorbital",
+      "name": "Infraorbital nerve",
+      "layer": "nerves",
+      "blender": "Infra-orbital nerve",
+      "bilateral": true,
+      "summary": "Continuation of the maxillary nerve (V2). It runs forward in the floor of the orbit through the infraorbital groove and canal, gives off the middle and anterior superior alveolar nerves, and exits at the infraorbital foramen to supply the lower eyelid, side of the nose, cheek and upper lip.",
+      "assistant": "Target of the infraorbital nerve block, which numbs the upper front teeth (through the anterior and middle superior alveolar nerves), the upper lip and the cheek on that side.",
+      "traced": "Split from the end of Z-Anatomy's maxillary nerve, where it enters the orbit.",
+      "sources": [
+        "sp-v2",
+        "sp-alveolar-n"
+      ]
+    },
+    {
+      "id": "n_psa",
+      "name": "Posterior superior alveolar nerve (PSA)",
+      "layer": "nerves",
+      "blender": "Posterior superior alveolar nerve",
+      "bilateral": true,
+      "summary": "Branch of V2 that leaves it in the pterygopalatine fossa and runs down the back of the maxilla (the maxillary tuberosity), entering small openings in the bone. It supplies the upper molars, their buccal gums and bone, and the maxillary sinus.",
+      "assistant": "Target of the PSA block for the upper molars. The mesiobuccal root of the first molar is sometimes supplied by the middle superior alveolar nerve instead, so that root may need extra anesthesia.",
+      "traced": "Drawn along the posterior superior alveolar artery to the root tips of the upper molars.",
+      "sources": [
+        "sp-v2",
+        "sp-alveolar-n"
+      ]
+    },
+    {
+      "id": "n_msa",
+      "name": "Middle superior alveolar nerve (MSA)",
+      "layer": "nerves",
+      "blender": "Middle superior alveolar nerve",
+      "bilateral": true,
+      "summary": "Branch of the infraorbital nerve that descends in the side wall of the maxillary sinus. It supplies the upper premolars (and often the mesiobuccal root of the first molar) with their buccal gums. It is not present in everyone; when absent, the anterior superior alveolar nerve takes over its area.",
+      "traced": "No guide in the source model: drawn from the infraorbital nerve to the root tips of the upper premolars.",
+      "sources": [
+        "sp-v2",
+        "sp-alveolar-n"
+      ]
+    },
+    {
+      "id": "n_asa",
+      "name": "Anterior superior alveolar nerve (ASA)",
+      "layer": "nerves",
+      "blender": "Anterior superior alveolar nerve",
+      "bilateral": true,
+      "summary": "Branch of the infraorbital nerve that leaves it just before the infraorbital foramen and descends in the front wall of the maxilla. It supplies the upper central and lateral incisors and canine, with their labial gums.",
+      "traced": "No guide in the source model: drawn from the infraorbital nerve to the root tips of the upper canine and incisors.",
+      "sources": [
+        "sp-v2",
+        "sp-alveolar-n"
+      ]
+    },
+    {
+      "id": "n_greater_palatine",
+      "name": "Greater palatine nerve",
+      "layer": "nerves",
+      "blender": "Greater palatine nerve",
+      "bilateral": true,
+      "summary": "Branch from the pterygopalatine ganglion (carrying V2 fibers) that descends through the greater palatine canal, exits the greater palatine foramen near the upper molars, and runs forward along the hard palate. It supplies the palatal gums and mucosa back from the canine.",
+      "assistant": "Target of the greater palatine block, used for palatal anesthesia of the premolars and molars.",
+      "traced": "Drawn along the descending and greater palatine arteries.",
+      "sources": [
+        "sp-v2",
+        "sp-palate"
+      ]
+    },
+    {
+      "id": "n_nasopalatine",
+      "name": "Nasopalatine nerve",
+      "layer": "nerves",
+      "blender": "Nasopalatine nerve",
+      "bilateral": true,
+      "summary": "Branch from the pterygopalatine ganglion (carrying V2 fibers) that runs down and forward along the nasal septum and reaches the palate through the incisive canal. It supplies the palatal gums and mucosa behind the upper incisors and canines.",
+      "assistant": "Target of the nasopalatine block, given next to the incisive papilla behind the central incisors. It is one of the more uncomfortable dental injections.",
+      "traced": "Drawn along the posterior septal branches of the sphenopalatine artery to the incisive canal.",
+      "sources": [
+        "sp-v2",
+        "sp-palate"
+      ]
+    },
+    {
+      "id": "n_maxillary_meningeal",
+      "name": "Meningeal branch of maxillary nerve",
+      "layer": "nerves",
+      "blender": "Meningeal branch of maxillary nerve",
+      "bilateral": true,
+      "summary": "Small sensory branch of V2 to the dura mater of the middle cranial fossa.",
+      "sources": [
+        "sp-v2"
+      ]
+    },
+    {
+      "id": "n_v3_anterior",
+      "name": "Anterior division of mandibular nerve",
+      "layer": "nerves",
+      "blender": "Anterior division of mandibular nerve",
+      "bilateral": true,
+      "summary": "The smaller division of V3. It is mostly motor, to the masseter, temporalis and lateral pterygoid. Its one sensory branch is the buccal nerve.",
+      "sources": [
+        "sp-v3"
+      ]
+    },
+    {
+      "id": "n_v3_posterior",
+      "name": "Posterior division of mandibular nerve",
+      "layer": "nerves",
+      "blender": "Posterior division of mandibular nerve",
+      "bilateral": true,
+      "summary": "The larger division of V3. It is mostly sensory and gives the inferior alveolar, lingual and auriculotemporal nerves. Its motor fibers form the nerve to the mylohyoid.",
+      "sources": [
+        "sp-v3"
+      ]
+    },
+    {
+      "id": "n_inferior_alveolar",
+      "name": "Inferior alveolar nerve",
+      "layer": "nerves",
+      "blender": "Inferior alveolar nerve",
+      "bilateral": true,
+      "summary": "Branch of V3 that enters the mandibular foramen on the inner side of the ramus and runs through the mandibular canal. It supplies all the lower teeth on its side. Near the premolars it divides into the mental nerve and the incisive nerve.",
+      "assistant": "Target of the inferior alveolar nerve block (IANB), the most common lower-jaw injection. A successful block numbs the lower teeth on that side up to the midline, plus the lower lip and chin through the mental nerve.",
+      "sources": [
+        "sp-v3",
+        "sp-ianb",
+        "sp-alveolar-n"
+      ]
+    },
+    {
+      "id": "n_lingual",
+      "name": "Lingual nerve",
+      "layer": "nerves",
+      "blender": "Lingual nerve",
+      "bilateral": true,
+      "summary": "Branch of V3 that gives general sensation to the front two-thirds of the tongue, the floor of the mouth and the lingual gums of the lower teeth. It also carries chorda tympani fibers for taste and to the submandibular and sublingual glands.",
+      "assistant": "Usually numbed together with the IANB (the tongue feels numb). It runs close to the inner side of the lower third molar, so it can be injured during wisdom-tooth surgery.",
+      "sources": [
+        "sp-lingual-n",
+        "sp-v3"
+      ]
+    },
+    {
+      "id": "n_mental",
+      "name": "Mental nerve",
+      "layer": "nerves",
+      "blender": "Mental nerve",
+      "bilateral": true,
+      "summary": "End branch of the inferior alveolar nerve. It exits the mandible through the mental foramen, usually near the apex of the lower second premolar, and supplies the lower lip, chin and the labial gums of the front lower teeth.",
+      "assistant": "A mental nerve block is injected near the mental foramen, between the lower premolars.",
+      "sources": [
+        "sp-mental-n"
+      ]
+    },
+    {
+      "id": "n_buccal",
+      "name": "Buccal nerve (long buccal)",
+      "layer": "nerves",
+      "blender": "Buccal nerve",
+      "bilateral": true,
+      "summary": "Sensory branch of the anterior division of V3. It supplies the skin and lining of the cheek and the buccal gums of the lower molars.",
+      "assistant": "Not numbed by the IANB. A separate buccal injection is needed for work on the buccal soft tissue of the lower molars (for example extractions or clamp placement).",
+      "sources": [
+        "sp-buccal-n",
+        "sp-v3"
+      ]
+    },
+    {
+      "id": "n_mylohyoid",
+      "name": "Nerve to mylohyoid",
+      "layer": "nerves",
+      "blender": "Nerve to mylohyoid muscle",
+      "bilateral": true,
+      "summary": "Branch of the inferior alveolar nerve that leaves just before the mandibular foramen. It supplies the mylohyoid muscle and the anterior belly of the digastric.",
+      "assistant": "In some people it also carries sensation from lower teeth, which is one possible reason an IANB does not fully work.",
+      "sources": [
+        "sp-mylohyoid-n"
+      ]
+    },
+    {
+      "id": "n_chorda_tympani",
+      "name": "Chorda tympani",
+      "layer": "nerves",
+      "blender": "Chorda tympani",
+      "bilateral": true,
+      "summary": "Branch of the facial nerve (CN VII) that joins the lingual nerve. It carries taste from the front two-thirds of the tongue and the nerve supply that makes the submandibular and sublingual glands secrete saliva.",
+      "sources": [
+        "sp-chorda"
+      ]
+    },
+    {
+      "id": "n_facial",
+      "name": "Facial nerve (CN VII)",
+      "layer": "nerves",
+      "blender": "Facial nerve (VII)",
+      "bilateral": true,
+      "summary": "The seventh cranial nerve. It moves the muscles of facial expression, including the orbicularis oris and buccinator. It passes through the parotid gland before dividing into its branches.",
+      "assistant": "Anesthetic placed too far back during an IANB can reach the facial nerve inside the parotid gland and cause temporary facial paralysis on that side (the patient cannot close the eye or smile on that side).",
+      "sources": [
+        "os-pns",
+        "sp-facial-n"
+      ]
+    },
+    {
+      "id": "n_hypoglossal",
+      "name": "Hypoglossal nerve (CN XII)",
+      "layer": "nerves",
+      "blender": "Hypoglossal nerve (XII)",
+      "bilateral": true,
+      "summary": "The twelfth cranial nerve. It is the motor nerve to the muscles of the tongue.",
+      "sources": [
+        "os-pns",
+        "sp-tongue"
+      ]
+    },
+    {
+      "id": "n_glossopharyngeal",
+      "name": "Glossopharyngeal nerve (CN IX)",
+      "layer": "nerves",
+      "blender": "Glossopharyngeal nerve (IX)",
+      "bilateral": true,
+      "summary": "The ninth cranial nerve. It carries taste and general sensation from the back third of the tongue and the pharynx (the sensory side of the gag reflex) and supplies the parotid gland.",
+      "sources": [
+        "os-pns",
+        "sp-tongue"
+      ]
+    },
+    {
+      "id": "a_external_carotid",
+      "name": "External carotid artery",
+      "layer": "arteries",
+      "blender": "External carotid artery",
+      "bilateral": true,
+      "summary": "Main artery of the face, mouth and jaws. Its branches include the lingual, facial, maxillary and superficial temporal arteries.",
+      "sources": [
+        "os-circ",
+        "sp-carotid"
+      ]
+    },
+    {
+      "id": "a_facial",
+      "name": "Facial artery",
+      "layer": "arteries",
+      "blender": "Facial artery",
+      "bilateral": true,
+      "summary": "Branch of the external carotid artery that hooks over the lower border of the mandible, just in front of the masseter, and runs up the face. It supplies the lips, cheeks and nose.",
+      "assistant": "Its pulse can be felt where it crosses the lower border of the mandible.",
+      "sources": [
+        "os-circ",
+        "sp-facial-a"
+      ]
+    },
+    {
+      "id": "a_superior_labial",
+      "name": "Superior labial artery",
+      "layer": "arteries",
+      "blender": "Superior labial artery",
+      "bilateral": true,
+      "summary": "Branch of the facial artery that supplies the upper lip. It connects with the artery of the other side to form a ring around the mouth.",
+      "sources": [
+        "sp-labial-a"
+      ]
+    },
+    {
+      "id": "a_inferior_labial",
+      "name": "Inferior labial artery",
+      "layer": "arteries",
+      "blender": "Inferior labial artery",
+      "bilateral": true,
+      "summary": "Branch of the facial artery that supplies the lower lip.",
+      "sources": [
+        "sp-labial-a"
+      ]
+    },
+    {
+      "id": "a_submental",
+      "name": "Submental artery",
+      "layer": "arteries",
+      "blender": "Submental artery",
+      "bilateral": true,
+      "summary": "Branch of the facial artery that runs under the mandible. It supplies the floor of the mouth, the chin and the submandibular region.",
+      "sources": [
+        "sp-facial-a"
+      ]
+    },
+    {
+      "id": "a_maxillary",
+      "name": "Maxillary artery",
+      "layer": "arteries",
+      "blender": "Maxillary artery",
+      "bilateral": true,
+      "summary": "Terminal branch of the external carotid artery. It starts behind the neck of the mandible and runs deep through the infratemporal fossa. It supplies the teeth of both jaws, the muscles of mastication, the palate and the nasal cavity.",
+      "assistant": "Its branches lie in the same deep spaces where dental injections are given, so always aspirate before injecting.",
+      "sources": [
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "a_inferior_alveolar",
+      "name": "Inferior alveolar artery",
+      "layer": "arteries",
+      "blender": "Inferior alveolar artery",
+      "bilateral": true,
+      "summary": "Branch of the maxillary artery that runs with the inferior alveolar nerve through the mandibular canal. It supplies the lower teeth and the mandible.",
+      "assistant": "It sits right next to the nerve at the mandibular foramen, which is why a positive aspiration is possible during an IANB.",
+      "sources": [
+        "sp-ia-a",
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "a_mental_branch",
+      "name": "Mental branch of inferior alveolar artery",
+      "layer": "arteries",
+      "blender": "Mental branch of inferior alveolar artery",
+      "bilateral": true,
+      "summary": "Leaves the mandible with the mental nerve through the mental foramen. It supplies the chin and lower lip.",
+      "sources": [
+        "sp-ia-a"
+      ]
+    },
+    {
+      "id": "a_mylohyoid_branch",
+      "name": "Mylohyoid branch of inferior alveolar artery",
+      "layer": "arteries",
+      "blender": "Mylohyoid branch of inferior alveolar artery",
+      "bilateral": true,
+      "summary": "Small branch that runs with the nerve to mylohyoid along the inner surface of the mandible to the mylohyoid muscle.",
+      "sources": [
+        "sp-ia-a"
+      ]
+    },
+    {
+      "id": "a_psa",
+      "name": "Posterior superior alveolar artery",
+      "layer": "arteries",
+      "blender": "Posterior superior alveolar artery",
+      "bilateral": true,
+      "summary": "Branch of the maxillary artery that enters the back of the maxilla. It supplies the upper molars and premolars, their gums, and the maxillary sinus.",
+      "assistant": "The PSA injection area is very vascular (including the pterygoid venous plexus), so this injection has a higher risk of hematoma. Aspirate carefully.",
+      "sources": [
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "a_infraorbital",
+      "name": "Infra-orbital artery",
+      "layer": "arteries",
+      "blender": "Infra-orbital artery",
+      "bilateral": true,
+      "summary": "Branch of the maxillary artery that runs through the floor of the orbit and exits at the infraorbital foramen. Its branches supply the upper front teeth and the face below the eye.",
+      "sources": [
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "a_descending_palatine",
+      "name": "Descending palatine artery",
+      "layer": "arteries",
+      "blender": "Descending palatine artery",
+      "bilateral": true,
+      "summary": "Branch of the maxillary artery that runs down to the palate and divides into the greater and lesser palatine arteries.",
+      "sources": [
+        "sp-max-a",
+        "sp-palate"
+      ]
+    },
+    {
+      "id": "a_greater_palatine",
+      "name": "Greater palatine artery",
+      "layer": "arteries",
+      "blender": "Greater palatine artery",
+      "bilateral": true,
+      "summary": "Comes out of the greater palatine foramen and runs forward along the hard palate. It supplies the palatal gums and mucosa.",
+      "assistant": "Runs in the palatal tissue next to the upper molars, so take care during palatal injections and gum-graft procedures.",
+      "sources": [
+        "sp-max-a",
+        "sp-palate"
+      ]
+    },
+    {
+      "id": "a_buccal",
+      "name": "Buccal artery",
+      "layer": "arteries",
+      "blender": "Buccal artery",
+      "bilateral": true,
+      "summary": "Small branch of the maxillary artery that supplies the buccinator muscle and the cheek.",
+      "sources": [
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "a_deep_temporal_ant",
+      "name": "Anterior deep temporal artery",
+      "layer": "arteries",
+      "blender": "Anterior deep temporal artery",
+      "bilateral": true,
+      "summary": "Branch of the maxillary artery that supplies the temporalis muscle.",
+      "sources": [
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "a_deep_temporal_post",
+      "name": "Posterior deep temporal artery",
+      "layer": "arteries",
+      "blender": "Posterior deep temporal artery",
+      "bilateral": true,
+      "summary": "Branch of the maxillary artery that supplies the temporalis muscle.",
+      "sources": [
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "a_superficial_temporal",
+      "name": "Superficial temporal artery",
+      "layer": "arteries",
+      "blender": "Superficial temporal artery",
+      "bilateral": true,
+      "summary": "Terminal branch of the external carotid artery. It runs up in front of the ear to the scalp.",
+      "assistant": "Its pulse can be felt just in front of the ear.",
+      "sources": [
+        "os-circ",
+        "sp-carotid"
+      ]
+    },
+    {
+      "id": "a_transverse_facial",
+      "name": "Transverse facial artery",
+      "layer": "arteries",
+      "blender": "Transverse facial artery",
+      "bilateral": true,
+      "summary": "Branch of the superficial temporal artery that crosses the face below the zygomatic arch. It supplies the parotid gland, the parotid duct and the masseter.",
+      "sources": [
+        "sp-carotid"
+      ]
+    },
+    {
+      "id": "a_sphenopalatine_septal",
+      "name": "Posterior septal branches (sphenopalatine artery)",
+      "layer": "arteries",
+      "blender": "Posterior septal branches of sphenopalatine artery",
+      "bilateral": true,
+      "summary": "Branches of the maxillary artery's sphenopalatine branch to the nasal septum. They reach the front of the palate through the incisive canal along with the nasopalatine nerve.",
+      "sources": [
+        "sp-max-a"
+      ]
+    },
+    {
+      "id": "v_facial",
+      "name": "Facial vein",
+      "layer": "veins",
+      "blender": "Facial vein",
+      "bilateral": true,
+      "summary": "Drains the front of the face. It connects with veins inside the skull through the ophthalmic veins and the pterygoid plexus.",
+      "assistant": "Because of those connections, an infection of the upper lip or nose can spread toward the skull. This is why infections in that area are taken seriously.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_common_facial",
+      "name": "Common facial vein",
+      "layer": "veins",
+      "blender": "Common facial vein",
+      "bilateral": true,
+      "summary": "Formed where the facial vein joins the anterior division of the retromandibular vein. It drains into the internal jugular vein.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_retromandibular",
+      "name": "Retromandibular vein",
+      "layer": "veins",
+      "blender": "Retromandibular vein",
+      "bilateral": true,
+      "summary": "Formed inside the parotid gland by the superficial temporal and maxillary veins, behind the ramus of the mandible.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_retromandibular_ant",
+      "name": "Anterior division of retromandibular vein",
+      "layer": "veins",
+      "blender": "Anterior division of retromandibular vein",
+      "bilateral": true,
+      "summary": "Joins the facial vein to form the common facial vein.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_retromandibular_post",
+      "name": "Posterior division of retromandibular vein",
+      "layer": "veins",
+      "blender": "Posterior division of retromandibular vein",
+      "bilateral": true,
+      "summary": "Joins the posterior auricular vein to form the external jugular vein.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_maxillary",
+      "name": "Maxillary veins",
+      "layer": "veins",
+      "blender": "Maxillary veins",
+      "bilateral": true,
+      "summary": "Short veins that drain the pterygoid venous plexus (around the muscles of mastication) into the retromandibular vein.",
+      "assistant": "The pterygoid plexus is the area at risk of hematoma during posterior superior alveolar (PSA) injections.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_superficial_temporal",
+      "name": "Superficial temporal veins",
+      "layer": "veins",
+      "blender": "Superficial temporal veins",
+      "bilateral": true,
+      "summary": "Drain the side of the scalp and join the maxillary veins to form the retromandibular vein.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_lingual",
+      "name": "Lingual vein",
+      "layer": "veins",
+      "blender": "Lingual vein",
+      "bilateral": true,
+      "summary": "Drains the tongue. The deep lingual veins are visible as blue lines under the tongue.",
+      "sources": [
+        "os-circ",
+        "sp-tongue"
+      ]
+    },
+    {
+      "id": "v_submental",
+      "name": "Submental vein",
+      "layer": "veins",
+      "blender": "Submental vein",
+      "bilateral": true,
+      "summary": "Drains the chin and floor of the mouth into the facial vein.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_superior_labial",
+      "name": "Superior labial vein",
+      "layer": "veins",
+      "blender": "Superior labial vein",
+      "bilateral": true,
+      "summary": "Drains the upper lip into the facial vein.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "v_inferior_labial",
+      "name": "Inferior labial veins",
+      "layer": "veins",
+      "blender": "Inferior labial veins",
+      "bilateral": true,
+      "summary": "Drain the lower lip into the facial vein.",
+      "sources": [
+        "os-circ"
+      ]
+    },
+    {
+      "id": "m_masseter_superficial",
+      "name": "Masseter (superficial part)",
+      "layer": "muscles",
+      "blender": "Superficial part of masseter",
+      "bilateral": true,
+      "summary": "Muscle of mastication from the zygomatic arch to the outer surface of the ramus and angle of the mandible. It elevates the mandible to close the jaw. Innervated by V3.",
+      "assistant": "Feel it bulge at the angle of the jaw when the patient clenches. It is often enlarged or tender in patients who grind their teeth (bruxism).",
+      "sources": [
+        "os-muscles",
+        "sp-masseter"
+      ]
+    },
+    {
+      "id": "m_masseter_deep",
+      "name": "Masseter (deep part)",
+      "layer": "muscles",
+      "blender": "Deep part of masseter",
+      "bilateral": true,
+      "summary": "Deeper portion of the masseter. It helps close the jaw and pull it back.",
+      "sources": [
+        "os-muscles",
+        "sp-masseter"
+      ]
+    },
+    {
+      "id": "m_temporalis",
+      "name": "Temporalis",
+      "layer": "muscles",
+      "blender": "Temporalis muscle",
+      "bilateral": true,
+      "summary": "Fan-shaped muscle of mastication on the side of the skull. It inserts on the coronoid process. It elevates the mandible, and its back fibers pull the jaw backward. Innervated by the deep temporal nerves (V3).",
+      "assistant": "Tension in the temporalis is a common cause of temple headaches in patients with TMJ disorders.",
+      "sources": [
+        "os-muscles"
+      ]
+    },
+    {
+      "id": "m_medial_pterygoid",
+      "name": "Medial pterygoid",
+      "layer": "muscles",
+      "blender": "Medial pterygoid muscle",
+      "bilateral": true,
+      "summary": "Muscle of mastication on the inner side of the ramus. It elevates the mandible and helps move it forward and side to side. Innervated by V3.",
+      "assistant": "The IANB needle passes through the space between the ramus and this muscle. Injecting into the muscle can cause trismus (difficulty opening the mouth).",
+      "sources": [
+        "os-muscles",
+        "sp-med-ptery"
+      ]
+    },
+    {
+      "id": "m_lateral_pterygoid_sup",
+      "name": "Lateral pterygoid (superior head)",
+      "layer": "muscles",
+      "blender": "Superior head of lateral pterygoid muscle",
+      "bilateral": true,
+      "summary": "Upper head of the lateral pterygoid. It attaches to the TMJ capsule and disc and steadies the joint while the jaw closes.",
+      "sources": [
+        "os-muscles",
+        "sp-lat-ptery"
+      ]
+    },
+    {
+      "id": "m_lateral_pterygoid_inf",
+      "name": "Lateral pterygoid (inferior head)",
+      "layer": "muscles",
+      "blender": "Inferior head of lateral pterygoid muscle",
+      "bilateral": true,
+      "summary": "Lower head of the lateral pterygoid. It pulls the condyle forward to open the mouth and push the jaw forward or to the side. Innervated by V3.",
+      "sources": [
+        "os-muscles",
+        "sp-lat-ptery"
+      ]
+    },
+    {
+      "id": "m_buccinator",
+      "name": "Buccinator",
+      "layer": "muscles",
+      "blender": "Bucinator",
+      "bilateral": true,
+      "summary": "Thin muscle that forms the wall of the cheek. It keeps food between the teeth while chewing and is pierced by the parotid duct. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-buccinator"
+      ]
+    },
+    {
+      "id": "m_orbicularis_oris",
+      "name": "Orbicularis oris",
+      "layer": "muscles",
+      "blender": "Orbicularis oris muscle",
+      "bilateral": true,
+      "summary": "Ring of muscle around the lips that closes and purses the mouth. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-orb-oris"
+      ]
+    },
+    {
+      "id": "m_mentalis",
+      "name": "Mentalis",
+      "layer": "muscles",
+      "blender": "Mentalis muscle",
+      "bilateral": true,
+      "summary": "Small muscle of the chin that raises and pushes out the lower lip and wrinkles the chin. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-facial-m"
+      ]
+    },
+    {
+      "id": "m_depressor_anguli_oris",
+      "name": "Depressor anguli oris",
+      "layer": "muscles",
+      "blender": "Depressor anguli oris",
+      "bilateral": true,
+      "summary": "Pulls the corners of the mouth down (frowning). Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-facial-m"
+      ]
+    },
+    {
+      "id": "m_depressor_labii_inf",
+      "name": "Depressor labii inferioris",
+      "layer": "muscles",
+      "blender": "Depressor labii inferioris",
+      "bilateral": true,
+      "summary": "Pulls the lower lip down. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-facial-m"
+      ]
+    },
+    {
+      "id": "m_levator_labii_sup",
+      "name": "Levator labii superioris",
+      "layer": "muscles",
+      "blender": "Levator labii superioris",
+      "bilateral": true,
+      "summary": "Raises the upper lip. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-lls"
+      ]
+    },
+    {
+      "id": "m_levator_anguli_oris",
+      "name": "Levator anguli oris",
+      "layer": "muscles",
+      "blender": "Levator anguli oris",
+      "bilateral": true,
+      "summary": "Raises the corners of the mouth. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-lao"
+      ]
+    },
+    {
+      "id": "m_zygomaticus_major",
+      "name": "Zygomaticus major",
+      "layer": "muscles",
+      "blender": "Zygomaticus major muscle",
+      "bilateral": true,
+      "summary": "Pulls the corners of the mouth up and back to smile. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-facial-m"
+      ]
+    },
+    {
+      "id": "m_zygomaticus_minor",
+      "name": "Zygomaticus minor",
+      "layer": "muscles",
+      "blender": "Zygomaticus minor muscle",
+      "bilateral": true,
+      "summary": "Raises the upper lip. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-facial-m"
+      ]
+    },
+    {
+      "id": "m_mylohyoid",
+      "name": "Mylohyoid",
+      "layer": "muscles",
+      "blender": "Mylohyoid muscle",
+      "bilateral": true,
+      "summary": "Forms the muscular floor of the mouth, from the mylohyoid line of the mandible to the hyoid. It raises the floor of the mouth and the hyoid during swallowing. Innervated by the nerve to mylohyoid (V3).",
+      "assistant": "Lower molar roots often extend below the mylohyoid line, so an infection there can spread into the neck below the floor of the mouth.",
+      "sources": [
+        "os-muscles",
+        "sp-mylohyoid-m"
+      ]
+    },
+    {
+      "id": "m_digastric_ant",
+      "name": "Digastric (anterior belly)",
+      "layer": "muscles",
+      "blender": "Anterior belly of digastric muscle",
+      "bilateral": true,
+      "summary": "Runs from the inner chin to the hyoid. It helps open the mouth and raises the hyoid. Innervated by V3.",
+      "sources": [
+        "os-muscles",
+        "sp-digastric"
+      ]
+    },
+    {
+      "id": "m_digastric_post",
+      "name": "Digastric (posterior belly)",
+      "layer": "muscles",
+      "blender": "Posterior belly of digastric muscle",
+      "bilateral": true,
+      "summary": "Runs from the mastoid area to the hyoid. It raises and pulls back the hyoid. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-digastric"
+      ]
+    },
+    {
+      "id": "m_geniohyoid",
+      "name": "Geniohyoid",
+      "layer": "muscles",
+      "blender": "Geniohyoid muscle",
+      "bilateral": true,
+      "summary": "Runs from the inner chin to the hyoid, above the mylohyoid. It pulls the hyoid forward and helps open the mouth. Innervated by C1 fibers that travel with the hypoglossal nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-suprahyoid"
+      ]
+    },
+    {
+      "id": "m_stylohyoid",
+      "name": "Stylohyoid",
+      "layer": "muscles",
+      "blender": "Stylohyoid muscle",
+      "bilateral": true,
+      "summary": "Runs from the styloid process to the hyoid. It raises and pulls back the hyoid during swallowing. Innervated by the facial nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-stylohyoid"
+      ]
+    },
+    {
+      "id": "m_genioglossus",
+      "name": "Genioglossus",
+      "layer": "muscles",
+      "blender": "Genioglossus muscle",
+      "bilateral": true,
+      "summary": "Main muscle of the tongue body, from the inner chin into the tongue. It sticks the tongue out and keeps it from falling back. Innervated by the hypoglossal nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-genioglossus"
+      ]
+    },
+    {
+      "id": "m_hyoglossus",
+      "name": "Hyoglossus",
+      "layer": "muscles",
+      "blender": "Hyoglossus muscle",
+      "bilateral": true,
+      "summary": "Runs from the hyoid into the side of the tongue. It pulls the tongue down and back. Innervated by the hypoglossal nerve.",
+      "sources": [
+        "os-muscles",
+        "sp-hyoglossus"
+      ]
+    }
+  ]
+}

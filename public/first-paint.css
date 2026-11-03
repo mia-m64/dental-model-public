@@ -1,0 +1,32 @@
+/* Loaded by a plain <link> in every page's <head>, before any JavaScript. It paints the
+   page dark and shows a loading screen (dots + tooth) that covers the page until its
+   styles and fonts are in; src/common.js then fades it out. Must stay tiny. */
+html { background: #0b1033; color-scheme: dark; }
+
+#page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: grid;
+  place-items: center;
+  background: #0b1033 url(background.jpg) center / cover no-repeat;
+  transition: opacity 0.3s ease;
+  /* Safety net: fade out on its own if the page script never runs. */
+  animation: loader-giveup 0.3s ease 8s forwards;
+}
+#page-loader.done { opacity: 0; pointer-events: none; }
+#page-loader svg {
+  width: 72px;
+  height: 72px;
+  color: #6fdcff;
+  filter: drop-shadow(0 0 14px rgba(111, 220, 255, 0.55));
+  animation: loader-pulse 1.4s ease-in-out infinite;
+}
+@keyframes loader-pulse {
+  0%, 100% { opacity: 0.55; transform: scale(0.94); }
+  50% { opacity: 1; transform: scale(1); }
+}
+@keyframes loader-giveup { to { opacity: 0; visibility: hidden; } }
+@media (prefers-reduced-motion: reduce) {
+  #page-loader svg { animation: none; }
+}

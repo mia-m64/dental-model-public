@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="description" content="Interactive 3D dental anatomy for dental assistant students." />
+    <!-- Content-Security-Policy is added at build time by vite.config.js -->
+    <title>Dental Anatomy 3D</title>
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="/first-paint.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="home">
+    <div id="page-loader" role="status" aria-label="Loading">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 8C14 8 10 13 10 20c0 8 3 13 5 20 2 8 3 18 7 18s4-10 6-16c1-3 7-3 8 0 2 6 2 16 6 16s5-10 7-18c2-7 5-12 5-20 0-7-4-12-10-12-5 0-8 3-12 3s-7-3-12-3Z" />
+      </svg>
+    </div>
+    <canvas id="dots" aria-hidden="true"></canvas>
+
+    <header class="site-nav">
+      <a class="brand" href="./">Dental Anatomy <em>3D</em></a>
+      <ul>
+        <li><a class="tab" href="./" aria-current="page">Home</a></li>
+        <li><a class="tab" href="./model.html">3D Model</a></li>
+        <li><a class="tab" href="./tooth.html">Inside a Tooth</a></li>
+        <li><a class="tab" href="./learn.html">Learn</a></li>
+        <li><a class="tab" href="./sources.html">Sources</a></li>
+      </ul>
+    </header>
+
+    <main class="hero">
+      <p class="eyebrow">For dental assistant students</p>
+      <h1>Dental Anatomy <em>3D</em></h1>
+      <p class="tagline">Don't memorize it, study it.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="./model.html">See 3D model</a>
+        <a class="button" href="./learn.html">Learn the procedures</a>
+      </div>
+    </main>
+
+    <footer class="home-footer">
+      <p class="project-warning" role="note">
+        <strong>Heads up:</strong> this is a personal educational project. The 3D models have no medical or dental approval and may contain
+        errors.
+      </p>
+      Educational use only, not for clinical diagnosis. Content from U.S. public sources (OpenStax, CDC), with every source cited.
+    </footer>
+
+    <div class="desktop-only">
+      <p>This app is designed for desktop computers.<br />Please open it on a computer with a larger screen.</p>
+    </div>
+
+    <script type="module" src="/src/home.js"></script>
+  </body>
+</html>

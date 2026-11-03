@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <!-- Content-Security-Policy is added at build time by vite.config.js -->
+    <title>3D Model · Dental Anatomy 3D</title>
+    <meta name="color-scheme" content="dark" />
+    <link rel="stylesheet" href="/first-paint.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <div id="page-loader" role="status" aria-label="Loading">
+      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 8C14 8 10 13 10 20c0 8 3 13 5 20 2 8 3 18 7 18s4-10 6-16c1-3 7-3 8 0 2 6 2 16 6 16s5-10 7-18c2-7 5-12 5-20 0-7-4-12-10-12-5 0-8 3-12 3s-7-3-12-3Z" />
+      </svg>
+    </div>
+    <div id="viewport"></div>
+    <div id="notes-layer"></div>
+
+    <aside id="layers-panel" class="open" aria-label="Layers">
+      <button type="button" id="layers-toggle" aria-expanded="true" aria-controls="layers-body">
+        <span class="brand">Dental Anatomy <em>3D</em></span>
+        <span class="toggle-label">Layers</span>
+        <span class="chevron" aria-hidden="true"></span>
+      </button>
+      <div id="layers-body">
+        <div class="layers-inner">
+          <p class="hint">Drag to rotate · Scroll to zoom · Right-drag to pan · Click a structure</p>
+          <ul id="layer-list"></ul>
+          <div class="panel-actions">
+            <button type="button" id="show-all">Show all</button>
+            <button type="button" id="reset-view">Reset view</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div id="toolbar">
+      <nav aria-label="Pages">
+        <a class="tab" href="./">Home</a>
+        <a class="tab" href="./model.html" aria-current="page">3D Model</a>
+        <a class="tab" href="./tooth.html">Inside a Tooth</a>
+        <a class="tab" href="./learn.html">Learn</a>
+        <a class="tab" href="./sources.html">Sources</a>
+      </nav>
+      <button type="button" id="toggle-notes" hidden>Hide notes</button>
+      <button type="button" id="add-note" class="primary">+ Add Note</button>
+      <button type="button" id="sign-in">Sign in</button>
+      <div id="user-menu" hidden>
+        <span id="user-email"></span>
+        <button type="button" id="sign-out">Sign out</button>
+      </div>
+    </div>
+    <p id="place-hint" hidden>Click on the model to place your note · <button type="button" id="place-cancel">Cancel</button></p>
+
+    <div id="hover-label" hidden></div>
+
+    <section id="info-box" hidden aria-live="polite">
+      <button type="button" id="info-close" aria-label="Close">×</button>
+      <p id="info-layer" class="info-layer"></p>
+      <h2 id="info-name"></h2>
+      <p id="info-summary"></p>
+      <p id="info-note" class="info-note" hidden></p>
+      <div id="info-assistant-wrap" hidden>
+        <h3>For the dental assistant</h3>
+        <p id="info-assistant"></p>
+      </div>
+      <h3>Sources</h3>
+      <ul id="info-sources"></ul>
+    </section>
+
+    <dialog id="auth-dialog">
+      <form id="auth-form">
+        <h2 id="auth-title">Sign in</h2>
+        <p class="auth-note">Sign in to keep private notes on the model. Only you can see your notes.</p>
+        <label>Email <input id="auth-email" type="email" autocomplete="email" required maxlength="254" /></label>
+        <label>Password <input id="auth-password" type="password" autocomplete="current-password" required minlength="8" maxlength="72" /></label>
+        <p id="auth-message" role="alert"></p>
+        <div class="auth-actions">
+          <button type="submit" id="auth-submit" class="primary">Sign in</button>
+          <button type="button" id="auth-cancel">Cancel</button>
+        </div>
+        <button type="button" id="auth-switch" class="link"></button>
+      </form>
+    </dialog>
+
+    <div id="loading">Loading 3D model…</div>
+
+    <div id="desktop-only">
+      <p>This app is designed for desktop computers.<br />Please open it on a computer with a larger screen.</p>
+    </div>
+
+    <footer id="credits">
+      Educational use only, not for clinical diagnosis. 3D model: Z-Anatomy (CC BY-SA 4.0), based on BodyParts3D © DBCLS (CC BY-SA 2.1 JP).
+      Background designed by <a href="https://www.magnific.com" target="_blank" rel="noopener noreferrer">Magnific</a>.
+    </footer>
+
+    <script type="module" src="/src/model.js"></script>
+  </body>
+</html>

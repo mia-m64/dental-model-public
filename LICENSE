@@ -1,0 +1,18 @@
+Copyright (c) 2026 Mia Martinez. All rights reserved.
+
+This repository's own code, and the content written for this app, may not be
+copied, modified, distributed or reused without written permission from the
+copyright holder.
+
+This notice does not apply to third-party material, which keeps its own license:
+
+- public/models/head.glb: CC BY-SA 4.0, modified from Z-Anatomy, which is based
+  on BodyParts3D (c) The Database Center for Life Science (CC BY-SA 2.1 JP).
+- Text adapted from OpenStax Anatomy & Physiology 2e: CC BY 4.0.
+- Text summarized from U.S. government works: see each source in the app.
+- public/background.jpg: recolored from a Magnific design under Magnific's own
+  terms. It is not licensed to you here.
+- Libraries, the Draco decoder and fonts: see their own licenses, listed in
+  SOURCES.md.
+
+SOURCES.md lists every source and license.

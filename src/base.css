@@ -1,0 +1,156 @@
+:root {
+  --bg: #0b1033;
+  --dot: rgb(44, 50, 112);
+  --dot-hot: #6fdcff;
+  --panel: rgba(5, 12, 32, 0.86);
+  --info-bg: rgba(0, 0, 0, 0.7);
+  --text: #e9edf5;
+  --muted: #98a6c4;
+  --accent: #7fb0ff;
+  --border: rgba(255, 255, 255, 0.12);
+  --note: #ffc24b;
+  --note-edge: #f39a2b;
+  --note-text: #3a2606;
+  --font: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Instrument Serif", Georgia, serif;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.45 var(--font);
+  letter-spacing: 0.005em;
+}
+
+button {
+  font: inherit;
+  font-size: 13px;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+button:hover { background: rgba(255, 255, 255, 0.15); }
+button:disabled { opacity: 0.5; cursor: default; }
+button.primary {
+  background: var(--note);
+  border-color: var(--note-edge);
+  color: var(--note-text);
+  font-weight: 600;
+}
+button.primary:hover { background: #ffd06e; }
+button.primary.active { background: var(--note-edge); }
+button.link { background: none; border: none; padding: 0; color: var(--accent); text-decoration: underline; }
+
+/* ---------- Top navigation (home + learn pages) ---------- */
+.site-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 18px 28px;
+}
+/* Dark bar behind the top navigation: black at 50%, fading out below the items */
+.site-nav::after,
+#toolbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 130px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 55%, rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+.site-nav .brand { color: var(--text); text-decoration: none; }
+.site-nav ul { display: flex; gap: 4px; margin: 0 0 0 auto; padding: 0; list-style: none; }
+.site-nav a.tab {
+  display: block;
+  padding: 6px 14px;
+  color: var(--muted);
+  text-decoration: none;
+  border-radius: 999px;
+}
+.site-nav a.tab:hover { color: var(--text); background: rgba(255, 255, 255, 0.07); }
+.site-nav a.tab[aria-current="page"] { color: var(--text); background: rgba(255, 255, 255, 0.2); }
+#user-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+#user-menu[hidden] { display: none; }
+
+.brand { font-family: var(--font-display); font-size: 22px; line-height: 1; }
+.brand em { color: var(--accent); }
+
+.desktop-only {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  place-items: center;
+  padding: 24px;
+  text-align: center;
+  background: var(--bg);
+}
+@media (max-width: 1023px), (pointer: coarse) and (hover: none) {
+  .desktop-only { display: grid; }
+}
+
+/* ---------- Project warning (Home, Sources) ---------- */
+.project-warning {
+  margin: 0;
+  padding: 8px 14px;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.5;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--note-edge);
+  border-radius: 8px;
+}
+.project-warning strong { color: var(--note); font-weight: 600; }
+
+/* ---------- Sign-in dialog ---------- */
+#auth-dialog {
+  width: 360px;
+  padding: 24px;
+  color: var(--text);
+  background: #0b1630;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+#auth-dialog::backdrop { background: rgba(2, 6, 20, 0.6); }
+#auth-dialog h2 { margin: 0 0 4px; font-family: var(--font-display); font-size: 28px; font-weight: 400; }
+.auth-note { margin: 0 0 16px; color: var(--muted); font-size: 13px; }
+#auth-form label { display: block; margin-bottom: 12px; font-size: 13px; color: var(--muted); }
+#auth-form input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px 10px;
+  font: inherit;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+#auth-form input:focus { outline: 2px solid var(--accent); outline-offset: 0; }
+#auth-message { min-height: 1.4em; margin: 0 0 8px; color: #ffb4a8; font-size: 13px; }
+.auth-actions { display: flex; gap: 8px; margin-bottom: 12px; }
+.auth-actions button { padding: 7px 14px; }

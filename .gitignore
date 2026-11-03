@@ -1,0 +1,37 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.keystore
+id_rsa*
+id_ed25519*
+secrets.*
+credentials*.json
+.npmrc
+.netrc
+
+# --- Dependencies / build output ---
+node_modules/
+dist/
+
+# --- Large source assets (downloaded, not ours) ---
+vendor-src/
+*.blend
+*.blend1
+*.zip
+*.7z
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Original design files (only processed copies in public/ are shipped)
+/dots_*.jpg
+/*.jpg

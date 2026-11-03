@@ -1,0 +1,56 @@
+{
+  "about": "Credits shown on the Sources page for things that are not text sources: 3D models, images, fonts and code. Text sources come from structures.json and learn.json. Keep in sync with SOURCES.md.",
+  "groups": [
+    {
+      "title": "3D models",
+      "items": [
+        {
+          "title": "Z-Anatomy, Models of human anatomy (head model)",
+          "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+          "license": "CC BY-SA 4.0",
+          "use": "The 3D head on the 3D Model page. Our modified version (head region only, renamed, with some nerve paths and the third molars added) is shared under CC BY-SA 4.0."
+        },
+        {
+          "title": "BodyParts3D © The Database Center for Life Science (DBCLS)",
+          "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/",
+          "license": "CC BY-SA 2.1 Japan",
+          "use": "The anatomy data Z-Anatomy is built on."
+        },
+        {
+          "title": "Inside a Tooth, schematic molar",
+          "license": "Made for this app",
+          "use": "Generated in code from math shapes; not from outside 3D data."
+        }
+      ]
+    },
+    {
+      "title": "Images, fonts and code",
+      "items": [
+        {
+          "title": "Dot background, designed by Magnific",
+          "url": "https://www.magnific.com",
+          "license": "Magnific free license, with credit",
+          "use": "Background of the 3D pages and loading screen (recolored)."
+        },
+        {
+          "title": "Instrument Sans and Instrument Serif fonts",
+          "url": "https://github.com/Instrument/instrument-sans",
+          "license": "SIL Open Font License 1.1",
+          "use": "All text in the app (bundled, not loaded from Google)."
+        },
+        {
+          "title": "three.js",
+          "url": "https://github.com/mrdoob/three.js",
+          "license": "MIT",
+          "use": "3D rendering."
+        },
+        {
+          "title": "Supabase JavaScript client",
+          "url": "https://github.com/supabase/supabase-js",
+          "license": "MIT",
+          "use": "Sign-in and private notes."
+        }
+      ]
+    }
+  ]
+}

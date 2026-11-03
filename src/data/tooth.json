@@ -1,0 +1,72 @@
+{
+  "about": "Schematic lower molar in its socket, built in code (src/tooth-model.js). Shapes are simplified for teaching and are not to scale. Each structure uses sources from structures.json.",
+  "layers": [
+    { "id": "enamel", "name": "Enamel", "color": "#f4f1e8" },
+    { "id": "dentin", "name": "Dentin", "color": "#e8c98a" },
+    { "id": "pulp", "name": "Pulp", "color": "#e0525e" },
+    { "id": "cementum", "name": "Cementum", "color": "#c9a46a" },
+    { "id": "pdl", "name": "Periodontal ligament", "color": "#8f6fd8" },
+    { "id": "bone", "name": "Alveolar bone", "color": "#b9ad94" },
+    { "id": "gingiva", "name": "Gingiva", "color": "#e58a95" }
+  ],
+  "structures": [
+    {
+      "id": "enamel",
+      "name": "Enamel",
+      "layer": "enamel",
+      "summary": "The outer layer that covers the dentin of the crown, the part of the tooth that projects above the gum line. Enamel is the hardest substance in the body.",
+      "assistant": "Hard as it is, enamel can still break down: bacteria feeding on sugars make acids that dissolve its calcium crystals, causing dental caries (cavities).",
+      "sources": ["os-mouth"]
+    },
+    {
+      "id": "dentin",
+      "name": "Dentin",
+      "layer": "dentin",
+      "summary": "A bone-like tissue that surrounds the pulp cavity and makes up most of the tooth. In the crown it is covered by enamel; in the root it is covered by cementum.",
+      "sources": ["os-mouth"]
+    },
+    {
+      "id": "pulp_chamber",
+      "name": "Pulp cavity (pulp chamber)",
+      "layer": "pulp",
+      "summary": "The inner space of the tooth. It holds the pulp, a loose connective tissue through which nerves and blood vessels run.",
+      "sources": ["os-mouth"]
+    },
+    {
+      "id": "root_canal",
+      "name": "Root canal",
+      "layer": "pulp",
+      "summary": "The part of the pulp cavity that runs through the root of the tooth. Nerves and blood vessels pass through it into the pulp.",
+      "sources": ["os-mouth"]
+    },
+    {
+      "id": "cementum",
+      "name": "Cementum",
+      "layer": "cementum",
+      "summary": "A layer of modified bone that covers the dentin of the root.",
+      "sources": ["os-mouth"]
+    },
+    {
+      "id": "pdl",
+      "name": "Periodontal ligament",
+      "layer": "pdl",
+      "summary": "The connective tissue that holds the root in its socket, between the cementum and the alveolar bone. Its thickness is exaggerated here so it can be seen.",
+      "sources": ["os-mouth"]
+    },
+    {
+      "id": "alveolar_bone",
+      "name": "Alveolar bone (socket)",
+      "layer": "bone",
+      "summary": "The bone of the alveolar process of the mandible or maxilla. Each tooth root sits in a socket (alveolus) in this bone.",
+      "sources": ["os-mouth"]
+    },
+    {
+      "id": "gingiva",
+      "name": "Gingiva (gums)",
+      "layer": "gingiva",
+      "summary": "Soft tissue that lines the alveolar processes and surrounds the neck of the tooth.",
+      "assistant": "Bleeding, redness or swelling of the gums is an early sign of gingivitis.",
+      "sources": ["os-mouth", "sp-gingiva"]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "sources": {
+    "cdc-dental-summary": {
+      "title": "CDC — Summary of Infection Prevention Practices in Dental Settings: Basic Expectations for Safe Care",
+      "url": "https://www.cdc.gov/dental-infection-control/hcp/summary/index.html",
+      "license": "U.S. federal government work (public domain)"
+    },
+    "cdc-dental-checklist": {
+      "title": "CDC — Infection Prevention Checklist for Dental Settings",
+      "url": "https://www.cdc.gov/dental-infection-control/hcp/summary/appendix.html",
+      "license": "U.S. federal government work (public domain)"
+    },
+    "osha-bbp": {
+      "title": "OSHA — Bloodborne Pathogens Standard (29 CFR 1910.1030)",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+      "license": "U.S. federal regulation (public domain)"
+    },
+    "osha-state-plans": {
+      "title": "OSHA — State Plans",
+      "url": "https://www.osha.gov/stateplans",
+      "license": "U.S. federal government work (public domain)"
+    },
+    "danb-states": {
+      "title": "DANB — State-by-state dental assisting requirements",
+      "url": "https://www.danb.org/state-requirements",
+      "license": "© DANB, link only"
+    },
+    "ecfr-1910-1030": {
+      "title": "eCFR — 29 CFR 1910.1030 Bloodborne pathogens (text as of 2026-10-23)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1030",
+      "license": "U.S. federal regulation (public domain)"
+    },
+    "ecfr-1910-1096": {
+      "title": "eCFR — 29 CFR 1910.1096 Ionizing radiation (text as of 2026-10-23)",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1910/subpart-Z/section-1910.1096",
+      "license": "U.S. federal regulation (public domain)"
+    },
+    "osha-digital-xray-2009": {
+      "title": "OSHA — Standard interpretation (April 3, 2009): digital radiography and 29 CFR 1910.1096",
+      "url": "https://www.osha.gov/laws-regs/standardinterpretations/2009-04-03-0",
+      "license": "U.S. federal government work (public domain)"
+    },
+    "ada-fda-xray-selection": {
+      "title": "FDA — Dental Radiographic Examinations: Recommendations for Patient Selection and Limiting Radiation Exposure (ADA with FDA, 2012)",
+      "url": "https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/selection-patients-dental-radiographic-examinations",
+      "license": "Written by ADA councils with FDA; link only"
+    },
+    "navy-dt-v1": {
+      "title": "U.S. Navy — Dental Technician, Volume 1 (NAVEDTRA 14274), chapter 4: tooth morphology, numbering and surfaces (online copy at tpub.com)",
+      "url": "https://medical.tpub.com/14274/css/Universal-Numbering-System-66.htm",
+      "license": "U.S. Navy work, approved for public release (public domain)"
+    },
+    "os-mouth": {
+      "title": "OpenStax Anatomy & Physiology 2e, §23.3 The Mouth, Pharynx, and Esophagus",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+      "license": "CC BY 4.0"
+    }
+  },
+  "topics": [
+    {
+      "id": "infection-control",
+      "title": "Infection Control",
+      "purpose": "The everyday steps that keep patients and the dental team from passing infections to each other: clean hands, protective equipment, safe sharps and injections, instrument sterilization, clean surfaces and safe water. Dental assistants do much of this work, especially instrument processing and room turnover.",
+      "appliesTo": "All U.S. states",
+      "appliesNote": "These are national CDC recommendations, the standard of care in every state. Some states make parts of them law, and OSHA's Bloodborne Pathogens Standard is federal law for all dental employers (states with their own OSHA-approved plan must be at least as strict). Which tasks a dental assistant may perform is decided by each state's dental board.",
+      "sources": [
+        "cdc-dental-summary",
+        "cdc-dental-checklist",
+        "osha-bbp",
+        "osha-state-plans",
+        "danb-states"
+      ],
+      "checked": "2026-10-23",
+      "sections": [
+        {
+          "heading": "Standard Precautions",
+          "intro": "Treat every patient as potentially infectious. Standard Precautions are the baseline for all dental care and include:",
+          "points": [
+            "Hand hygiene",
+            "Personal protective equipment (PPE)",
+            "Respiratory hygiene and cough etiquette",
+            "Sharps safety",
+            "Safe injection practices",
+            "Sterile instruments and devices",
+            "Clean and disinfected environmental surfaces"
+          ]
+        },
+        {
+          "heading": "Hand hygiene",
+          "intro": "The single most important way to prevent the spread of infection. Clean your hands:",
+          "points": [
+            "When they are visibly soiled.",
+            "After touching instruments, equipment or materials that may be contaminated with blood, saliva or respiratory secretions.",
+            "Before and after treating each patient.",
+            "Before putting on gloves, and again right after taking them off.",
+            "Use soap and water if hands are visibly soiled (for example with blood); otherwise an alcohol-based hand rub works.",
+            "Before oral surgical procedures, do a surgical hand scrub before putting on sterile gloves."
+          ]
+        },
+        {
+          "heading": "Personal protective equipment (PPE)",
+          "points": [
+            "Wear gloves whenever you may touch blood, body fluids, mucous membranes, non-intact skin or contaminated equipment.",
+            "Never wear the same gloves for more than one patient, and never wash gloves to reuse them.",
+            "Wear a mask and eye protection (or a face shield) for anything that can splash or spray blood or saliva.",
+            "Wear protective clothing that covers skin and personal clothes when contact with blood or saliva is expected.",
+            "Take PPE off before leaving the work area. Hand hygiene is always the last step after removing PPE."
+          ]
+        },
+        {
+          "heading": "Respiratory hygiene / cough etiquette",
+          "points": [
+            "Post signs at entrances asking people with respiratory symptoms to cover coughs and sneezes, use tissues and clean their hands.",
+            "Provide tissues, no-touch trash cans and hand hygiene supplies in or near the waiting area.",
+            "Offer masks to coughing patients and seat them as far from others as possible."
+          ]
+        },
+        {
+          "heading": "Sharps safety",
+          "intro": "Most needlesticks and cuts in dentistry come from burs, needles and other sharp instruments, and most are preventable.",
+          "points": [
+            "Treat contaminated sharps (needles, scalers, burs, lab knives, wires) as potentially infective.",
+            "Never recap a used needle with both hands or point it toward any part of the body.",
+            "Recap with the one-handed scoop technique or a needle-cap holder (for example between injections, or before removing the needle from a reusable aspirating syringe).",
+            "Don't bend or break needles, and don't pass a syringe with an uncovered needle by hand.",
+            "Remove burs before taking the handpiece off the dental unit.",
+            "Put used needles, syringes, scalpel blades and other sharps in a puncture-resistant sharps container as close as possible to where they were used."
+          ]
+        },
+        {
+          "heading": "Safe injection practices",
+          "points": [
+            "A local anesthetic needle and cartridge are for one patient only. Clean and heat-sterilize the reusable cartridge syringe before the next patient.",
+            "Prepare injections in a clean area using aseptic technique, and wipe the rubber top of a vial with alcohol before piercing it.",
+            "Never use a needle or syringe for more than one patient, and always enter a medication vial with a new needle and syringe.",
+            "Use single-dose vials whenever possible, and never combine leftovers from single-use vials.",
+            "Date multidose vials when first opened and discard them within 28 days unless the manufacturer says otherwise. A multidose vial that enters the operatory is used for that one patient only."
+          ]
+        },
+        {
+          "heading": "Sterilizing and disinfecting instruments",
+          "intro": "Instruments are grouped by how much infection risk they carry:",
+          "points": [
+            "Critical items (penetrate soft tissue or bone, e.g. surgical instruments, periodontal scalers): always heat-sterilize.",
+            "Semicritical items (touch mucous membranes, e.g. mouth mirrors, amalgam condensers, reusable impression trays): heat-sterilize; if heat-sensitive, replace with a heat-tolerant or disposable one, or at minimum use high-level disinfection.",
+            "Noncritical items (touch only intact skin, e.g. x-ray tube head, blood pressure cuff): clean, and disinfect if visibly soiled; barriers are a good alternative.",
+            "Handpieces, low-speed motors and reusable prophy angles are always heat-sterilized between patients, never just wiped.",
+            "Digital x-ray sensors: use an FDA-cleared barrier, then clean and heat-sterilize or high-level disinfect between patients, following the manufacturer.",
+            "Always clean before sterilizing. Debris left on instruments can shield germs from the sterilizer. Ultrasonic cleaners and washer-disinfectors are preferred over hand scrubbing.",
+            "Label packages with the sterilizer, cycle or load number and date, so items can be recalled if a cycle fails."
+          ]
+        },
+        {
+          "heading": "Monitoring the sterilizer",
+          "points": [
+            "Mechanical: check and record the time, temperature and pressure for every cycle.",
+            "Chemical: put a chemical indicator inside every package (and outside too if the inside one can't be seen). If it didn't change color, don't use those instruments.",
+            "Biological (spore test): at least weekly. It's the most accepted test because it shows the sterilizer actually killed highly resistant spores.",
+            "Keep sterilization records. They show the cycles worked and tell you which instruments to recall if a test fails.",
+            "Store sterile packs in covered or closed cabinets, and reprocess any pack that is wet, torn or punctured."
+          ]
+        },
+        {
+          "heading": "Clean surfaces",
+          "points": [
+            "Cover hard-to-clean clinical contact surfaces (light handles, chair switches, keyboards) with barriers and change them between patients.",
+            "Clean and disinfect uncovered clinical contact surfaces after each patient with an EPA-registered hospital disinfectant; use an intermediate-level (tuberculocidal) one if there is visible blood.",
+            "Always clean before disinfecting, and follow the product label for dilution and contact time.",
+            "Floors, walls and sinks carry less risk and can be cleaned with soap and water unless contaminated with blood."
+          ]
+        },
+        {
+          "heading": "Dental unit water",
+          "points": [
+            "Water used for routine treatment must meet the EPA drinking water standard: 500 CFU/mL or less of heterotrophic bacteria.",
+            "Waterlines grow biofilm, and a separate water bottle alone is not enough. Use the treatment and monitoring methods the unit's manufacturer recommends.",
+            "For surgical procedures, use only sterile saline or sterile water as coolant or irrigant."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osha-bloodborne-pathogens",
+      "title": "OSHA & Bloodborne Pathogens",
+      "purpose": "The federal law that protects workers who may touch blood or saliva on the job. It says what the dental employer must provide (an exposure control plan, PPE, the hepatitis B vaccine, training, records) and what every team member must do (universal precautions, safe sharps handling, reporting an exposure). Paragraph letters like (d)(2) point to the matching part of the regulation.",
+      "appliesTo": "All U.S. states",
+      "appliesNote": "29 CFR 1910.1030 is federal law for private-sector employers in every state. States with an OSHA-approved State Plan enforce their own version, which must be at least as effective and may be stricter. Paragraph (e) covers HIV/HBV research labs and production facilities and does not apply to dental offices, so it is left out here.",
+      "sources": [
+        "ecfr-1910-1030",
+        "osha-bbp",
+        "osha-state-plans"
+      ],
+      "checked": "2026-10-27",
+      "sections": [
+        {
+          "heading": "Key definitions",
+          "intro": "Words the standard uses in a specific way (b):",
+          "points": [
+            "Bloodborne pathogens: germs in human blood that can cause disease, including hepatitis B virus (HBV) and HIV.",
+            "Other potentially infectious materials (OPIM): includes saliva in dental procedures, any body fluid visibly contaminated with blood, and unfixed human tissue.",
+            "Contaminated sharps: any contaminated object that can pierce skin, including needles, scalpels, broken glass and exposed ends of dental wires.",
+            "Occupational exposure: reasonably anticipated contact of skin, eyes, mucous membranes or through the skin (parenteral) with blood or OPIM as part of your job.",
+            "Exposure incident: a specific contact of the eye, mouth, other mucous membrane, non-intact skin or a needlestick/cut with blood or OPIM while working.",
+            "Universal precautions: treating all human blood and certain body fluids as if they were known to carry HIV, HBV or other bloodborne pathogens.",
+            "Engineering controls remove the hazard (sharps containers, self-sheathing needles, safer devices). Work practice controls change how a task is done (for example, no two-handed needle recapping)."
+          ]
+        },
+        {
+          "heading": "Exposure Control Plan",
+          "intro": "Every employer with exposed workers must have a written plan to eliminate or minimize exposure (c):",
+          "points": [
+            "It lists which jobs and tasks involve exposure, decided without counting PPE.",
+            "It explains how the office meets the standard and how exposure incidents are evaluated.",
+            "Employees must be able to get a copy.",
+            "It is reviewed and updated at least once a year, and whenever tasks or positions change.",
+            "Each yearly review documents which safer medical devices were considered and adopted.",
+            "Front-line staff who use sharps (such as dental assistants) must be asked for input when choosing safer devices and work practices, and that input is documented."
+          ]
+        },
+        {
+          "heading": "Hand washing and work practices",
+          "points": [
+            "Universal precautions are always used (d)(1).",
+            "Wash hands right after removing gloves or other PPE (d)(2)(v).",
+            "Wash skin with soap and water, or flush eyes, nose or mouth with water, right away after contact with blood or OPIM (d)(2)(vi).",
+            "If no sink is available, the employer provides antiseptic hand cleanser or towelettes, and hands are washed with soap and water as soon as possible (d)(2)(iv).",
+            "No eating, drinking, smoking, applying cosmetics or lip balm, or handling contact lenses where exposure is likely (d)(2)(ix).",
+            "Food and drink are never stored in refrigerators, shelves or counters where blood or OPIM are present (d)(2)(x).",
+            "Work in a way that minimizes splashing, spraying and spatter (d)(2)(xi)."
+          ]
+        },
+        {
+          "heading": "Needles and other sharps",
+          "points": [
+            "Contaminated needles and sharps are not bent, recapped or removed, and never sheared or broken (d)(2)(vii).",
+            "Recapping or removal is allowed only when a specific dental procedure requires it, and then only with a mechanical device or a one-handed technique (d)(2)(vii)(B).",
+            "Contaminated reusable sharps go right away into a container that is puncture resistant, leakproof on sides and bottom, and labeled or color-coded (d)(2)(viii).",
+            "Disposable sharps go right away into a container that is closable, puncture resistant, leakproof and labeled (d)(4)(iii)(A).",
+            "Sharps containers are kept upright, as close as possible to where sharps are used, and replaced before they overfill. Close them before moving them.",
+            "Never reach by hand into a container of reusable sharps, and pick up broken glass with a brush and dust pan, tongs or forceps, never with your hands (d)(4)(ii)(D–E)."
+          ]
+        },
+        {
+          "heading": "Personal protective equipment (PPE)",
+          "points": [
+            "The employer provides PPE at no cost, in the right sizes, and cleans, repairs, replaces and disposes of it at no cost (d)(3)(i, iii–v).",
+            "PPE counts as appropriate only if blood or OPIM can't pass through to your clothes, skin, eyes or mouth (d)(3)(i).",
+            "Hypoallergenic gloves, glove liners or powderless gloves must be available for anyone allergic to the usual gloves (d)(3)(iii).",
+            "Gloves: worn when hand contact with blood, OPIM, mucous membranes, non-intact skin or contaminated surfaces is expected. Single-use gloves are replaced when contaminated or torn and are never washed for reuse. Utility gloves may be decontaminated and reused until cracked, peeling or torn (d)(3)(ix).",
+            "Masks with eye protection (goggles or glasses with solid side shields) or a chin-length face shield are worn whenever splashes, spray or spatter can reach the eyes, nose or mouth (d)(3)(x).",
+            "Gowns, lab coats, clinic jackets or similar protective clothing are worn when exposure is expected (d)(3)(xi).",
+            "Remove a garment soaked through by blood or OPIM as soon as possible, and remove all PPE before leaving the work area (d)(3)(vi–vii)."
+          ]
+        },
+        {
+          "heading": "Housekeeping, waste and laundry",
+          "points": [
+            "The office keeps a written cleaning schedule and method for each area and surface (d)(4)(i).",
+            "Contaminated work surfaces are disinfected after procedures, right away after a spill, and at the end of the shift if they may have been contaminated (d)(4)(ii)(A).",
+            "Protective coverings such as plastic wrap or foil are replaced when visibly contaminated, or at the end of the shift (d)(4)(ii)(B).",
+            "Regulated waste goes in closable, leakproof, labeled or color-coded containers that are closed before being moved (d)(4)(iii)(B).",
+            "Contaminated laundry is handled as little as possible, bagged where it was used and not sorted or rinsed there, and handled with gloves (d)(4)(iv)."
+          ]
+        },
+        {
+          "heading": "Hepatitis B vaccine",
+          "points": [
+            "Offered free to every employee with occupational exposure, after training and within 10 working days of starting the job (f)(2)(i).",
+            "Not required if the employee already completed the series, testing shows immunity, or the vaccine is medically contraindicated.",
+            "An employee who declines signs the declination statement in Appendix A, and can still get the vaccine free later (f)(2)(iii–iv).",
+            "The employer can't require a prescreening test before the vaccine (f)(2)(ii)."
+          ]
+        },
+        {
+          "heading": "After an exposure incident",
+          "intro": "Report it right away. The employer must immediately offer a confidential medical evaluation and follow-up, at no cost (f)(3):",
+          "points": [
+            "Document how the exposure happened and the route of exposure.",
+            "Identify the source individual (for example, the patient) unless that is infeasible or prohibited by law, and test the source's blood for HBV and HIV after consent.",
+            "Test the exposed employee's blood after consent. If the employee agrees to the blood draw but not yet to HIV testing, the sample is kept at least 90 days.",
+            "Post-exposure prophylaxis when medically indicated, following U.S. Public Health Service recommendations, plus counseling and evaluation of any illness.",
+            "The employee receives a copy of the healthcare professional's written opinion within 15 days of the evaluation (f)(5). Other findings stay confidential."
+          ]
+        },
+        {
+          "heading": "Labels and signs",
+          "points": [
+            "Warning labels with the biohazard symbol go on regulated waste containers, refrigerators or freezers holding blood or OPIM, and containers used to store or ship them (g)(1)(i)(A).",
+            "Labels are fluorescent orange or orange-red, with lettering and symbol in a contrasting color (g)(1)(i)(C).",
+            "Red bags or red containers may be used instead of labels (g)(1)(i)(E).",
+            "Contaminated equipment sent for service is labeled to say which parts remain contaminated (d)(2)(xiv), (g)(1)(i)(H)."
+          ]
+        },
+        {
+          "heading": "Training",
+          "points": [
+            "Provided free, during working hours, when you start a job with exposure and at least once a year after (within one year of the last training) (g)(2)(i–iv).",
+            "Extra training is given when new tasks or procedures change your exposure (g)(2)(v).",
+            "Training must fit the employees' education level, literacy and language (g)(2)(vi).",
+            "It covers the standard itself, how bloodborne diseases spread, the office's exposure control plan, PPE, the hepatitis B vaccine, what to do in an exposure, signs and labels, and a chance to ask questions of a knowledgeable trainer (g)(2)(vii–viii)."
+          ]
+        },
+        {
+          "heading": "Records",
+          "points": [
+            "Medical records for each exposed employee (vaccination status, post-exposure testing and opinions) are kept confidential, for the length of employment plus 30 years (h)(1).",
+            "Training records (dates, content, trainer, attendees) are kept for 3 years (h)(2).",
+            "Employers who must keep an OSHA injury and illness log (29 CFR part 1904) also keep a confidential sharps injury log that records the device type and brand, the work area, and how the injury happened (h)(5)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "radiation-safety",
+      "title": "Radiation Safety",
+      "purpose": "The federal OSHA rules that protect workers who operate x-ray equipment: how much radiation a worker may receive, when a dosimeter badge is required, warning signs, training and exposure records. For protecting the patient (when to take x-rays, lead aprons, thyroid collars, collimation), see the ADA/FDA guide in the sources. Paragraph letters like (b)(1) point to the matching part of the regulation.",
+      "appliesTo": "All U.S. states, with state rules taking over in many",
+      "appliesNote": "29 CFR 1910.1096 is the federal OSHA standard. Employers in the states listed in its paragraph (p)(3) (Alabama, Arizona, Arkansas, California, Colorado, Florida, Georgia, Idaho, Kansas, Kentucky, Louisiana, Maryland, Mississippi, Nebraska, New Hampshire, New York, North Carolina, North Dakota, Oregon, South Carolina, Tennessee, Texas and Washington) follow their own state radiation laws instead, and states with OSHA-approved State Plans enforce their own version. Who may take dental radiographs, and what certification they need, is set by each state's dental board.",
+      "sources": [
+        "ecfr-1910-1096",
+        "osha-digital-xray-2009",
+        "ada-fda-xray-selection",
+        "osha-state-plans",
+        "danb-states"
+      ],
+      "checked": "2026-10-27",
+      "sections": [
+        {
+          "heading": "Key terms",
+          "intro": "Words the standard uses in a specific way (a), (d)(3):",
+          "points": [
+            "Radiation includes x-rays, as well as alpha, beta and gamma rays and other particles. It does not include sound, radio waves, visible, infrared or ultraviolet light.",
+            "Dose: the amount of radiation absorbed by the body or part of it. The standard measures it in rem and millirem (1 mrem = 0.001 rem). For x-rays, 1 roentgen counts as 1 rem. Newer references use millisieverts (1 rem = 10 mSv).",
+            "Restricted area: an area where the employer controls access to protect people from radiation.",
+            "Radiation area: a place where a person could get more than 5 mrem in one hour, or more than 100 mrem in 5 days in a row.",
+            "Personnel monitoring equipment: a device worn by the worker to measure the dose received, such as a film badge, pocket dosimeter or ring badge."
+          ]
+        },
+        {
+          "heading": "Dose limits for workers",
+          "intro": "In a restricted area, the most a worker may receive in one calendar quarter (3 months) (b)(1):",
+          "points": [
+            "Whole body (head and trunk, blood-forming organs, lens of the eyes, gonads): 1¼ rems.",
+            "Hands and forearms, feet and ankles: 18¾ rems.",
+            "Skin of the whole body: 7½ rems.",
+            "The whole-body limit can be raised to 3 rems a quarter only if the worker's lifetime dose stays under 5 × (age − 18) rems and the employer keeps exposure records showing it (b)(2).",
+            "Workers under 18 may receive no more than 10% of these limits (b)(3).",
+            "OSHA has stated that offices using digital radiography must still comply with this standard."
+          ]
+        },
+        {
+          "heading": "Dosimeter badges",
+          "intro": "The employer surveys the radiation hazards as needed (d)(1), and must supply a monitoring device and require it to be worn by (d)(2):",
+          "points": [
+            "Any worker likely to receive more than 25% of the quarterly limit.",
+            "Any worker under 18 likely to receive more than 5% of the quarterly limit.",
+            "Anyone who enters a high radiation area (more than 100 mrem in one hour)."
+          ]
+        },
+        {
+          "heading": "Warning signs",
+          "points": [
+            "The radiation symbol is the three-bladed design in magenta or purple on a yellow background (e)(1).",
+            "Every radiation area is posted with the symbol and the words CAUTION RADIATION AREA (e)(2).",
+            "Higher-risk areas have stricter signs and controls (e)(3)."
+          ]
+        },
+        {
+          "heading": "Training and posting",
+          "intro": "Everyone who works in or regularly enters a radiation area must be (i)(2):",
+          "points": [
+            "Told where radiation is present.",
+            "Taught the safety problems of radiation exposure and the precautions and devices that reduce it.",
+            "Taught the parts of this standard that protect them.",
+            "Told about the exposure reports they can request.",
+            "The employer posts a copy of the standard and the office's operating procedures where workers will see them, or keeps them available on request (i)(3)."
+          ]
+        },
+        {
+          "heading": "Records and reports",
+          "points": [
+            "The employer keeps radiation exposure records for every worker who must wear a badge, and tells each one their own exposure at least once a year (n)(1).",
+            "A former employee can ask for a written report of their exposure; it must arrive within 30 days (o)(1).",
+            "Overexposures are reported to OSHA in writing within 30 days, and the worker is told in writing (m).",
+            "Serious incidents (for example a possible whole-body dose of 5 rems or more) must be reported to OSHA within 24 hours, or immediately for larger doses (l)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tooth-numbering",
+      "title": "Tooth Numbering & Charting",
+      "purpose": "How to name and number every tooth and tooth surface the way U.S. dental offices do, so you can read a chart, record findings correctly and understand the dentist when they call out a tooth. The 3D Model page uses these same numbers.",
+      "appliesTo": "All U.S. states",
+      "appliesNote": "The Universal Numbering System is the one approved by the American Dental Association and used across the U.S. and by the armed services. Chart layouts, colors and symbols differ between offices and dental software, so always learn your office's charting conventions.",
+      "sources": [
+        "navy-dt-v1",
+        "os-mouth"
+      ],
+      "checked": "2026-10-29",
+      "sections": [
+        {
+          "heading": "Two sets of teeth",
+          "points": [
+            "Primary (deciduous, \"baby\") teeth: 20. They start to appear at about 6 months of age.",
+            "Permanent teeth: 32. Between about ages 6 and 12, they replace the primary teeth.",
+            "The third molars, or wisdom teeth, are the last teeth in each arch. It is common for them to stay impacted (never erupt)."
+          ]
+        },
+        {
+          "heading": "Types of teeth",
+          "points": [
+            "Incisors (8): the front teeth, with thin edges for cutting (biting into food).",
+            "Cuspids, or canines (4): at the corners of the mouth, with a single pointed cusp for tearing.",
+            "Bicuspids, or premolars (8): two cusps and a wider surface for crushing food.",
+            "Molars (12): at the back, with four or five cusps and a broad surface for grinding. They get smaller from first to third molar."
+          ]
+        },
+        {
+          "heading": "Arches and quadrants",
+          "points": [
+            "Maxillary teeth are in the upper arch (their roots are in the maxilla); mandibular teeth are in the lower arch (roots in the mandible). Each arch has 16 permanent teeth.",
+            "The midline, an imaginary line between the central incisors, splits each arch into right and left. That gives four quadrants: right maxillary, left maxillary, left mandibular and right mandibular.",
+            "Each quadrant has 8 permanent teeth, from the midline back: central incisor, lateral incisor, cuspid, first and second bicuspid, first, second and third molar.",
+            "Anterior teeth are the incisors and cuspids (cuspid to cuspid, 6 per arch). Posterior teeth are the bicuspids and molars (10 per arch).",
+            "To name a tooth completely, give its quadrant and full name, for example \"right mandibular second molar\", not just \"molar\"."
+          ]
+        },
+        {
+          "heading": "Universal Numbering System",
+          "intro": "Each permanent tooth has its own number from 1 to 32. When charting, refer to the tooth by number rather than by name.",
+          "points": [
+            "#1 is the upper right third molar. Numbers go across the upper arch to #16, the upper left third molar.",
+            "They continue down to #17, the lower left third molar, and across the lower arch to #32, the lower right third molar.",
+            "So the upper teeth are 1–16 and the lower teeth are 17–32. The upper central incisors are #8 and #9; the lower central incisors are #24 and #25.",
+            "Primary teeth use capital letters A to T, in the same direction: A is the upper right second primary molar, J the upper left second primary molar, K the lower left second primary molar, and T the lower right second primary molar.",
+            "On the chart, primary molars are drawn above the roots of the permanent premolars that will replace them."
+          ]
+        },
+        {
+          "heading": "Reading a dental chart",
+          "points": [
+            "The patient's right side is on the left side of the chart, and the patient's left is on the right. It is drawn the way the dentist sees the mouth when facing the patient.",
+            "The chart shows each tooth \"unfolded\" so all its surfaces are visible.",
+            "Posterior teeth: the facial surface is drawn next to the roots, then the occlusal surface, then the lingual surface next to the tooth number.",
+            "Anterior teeth: the incisal edge is drawn as a line between the facial and lingual surfaces, with the lingual surface next to the tooth number."
+          ]
+        },
+        {
+          "heading": "Tooth surfaces",
+          "points": [
+            "Facial: faces the lips or cheeks. More specifically, labial on anterior teeth (toward the lips) and buccal on posterior teeth (toward the cheek).",
+            "Lingual: faces the tongue, on both anterior and posterior teeth.",
+            "Mesial: the side closest to the midline. Distal: the side facing away from the midline.",
+            "Proximal surfaces: the mesial and distal sides, where neighboring teeth meet.",
+            "Incisal: the narrow cutting edge of anterior teeth. Occlusal: the broad chewing surface of bicuspids and molars."
+          ]
+        },
+        {
+          "heading": "Between the teeth",
+          "points": [
+            "Contact point: where two neighboring teeth touch. You feel it as resistance when passing floss.",
+            "Interproximal space: the area between two teeth, partly filled by the interdental papilla (a triangular fold of gum).",
+            "Embrasure: the part of the interproximal space not filled by the papilla.",
+            "Diastema: a space between two teeth that do not touch."
+          ]
+        },
+        {
+          "heading": "How the teeth meet",
+          "points": [
+            "Occlusion is how the upper and lower chewing surfaces fit together. Centric occlusion is their centered, fully closed contact position. Malocclusion is any abnormal relationship.",
+            "Curve of Spee: the front-to-back curve of the lower arch, a bowl-like upward curve. Curve of Wilson: the side-to-side curve.",
+            "Vertical overlap: the upper teeth extend down over the lower teeth. Horizontal overlap: the upper teeth project out in front of them.",
+            "Key to occlusion: in a normal bite, the mesiofacial cusp of the upper first molar fits into the facial groove of the lower first molar.",
+            "Angle's classification: Class I is a normal profile; Class II has a retruded (short) chin; Class III has a protruded (long) chin."
+          ]
+        }
+      ]
+    }
+  ],
+  "upcoming": []
+}

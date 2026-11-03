@@ -1,0 +1,45 @@
+#sources h1 {
+  margin: 6px 0 16px;
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+}
+.sources-intro { margin: 0 0 16px; color: #cdd6ef; font-size: 15px; line-height: 1.6; }
+
+#sources .project-warning { margin-bottom: 40px; }
+
+#section-list { margin: 0; padding: 0; list-style: none; }
+#section-list a {
+  display: block;
+  padding: 9px 12px;
+  margin-bottom: 4px;
+  color: var(--text);
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+}
+#section-list a:hover { background: rgba(255, 255, 255, 0.06); }
+
+.source-group { margin-bottom: 48px; scroll-margin-top: 100px; }
+.source-group h2 {
+  margin: 0 0 6px;
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 400;
+}
+.group-note { margin: 0 0 16px; color: var(--muted); }
+
+.source-list { margin: 0; padding: 0; list-style: none; }
+.source {
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+.source p { margin: 0; }
+.source-title a { color: var(--text); font-weight: 600; text-decoration-color: rgba(111, 220, 255, 0.5); text-underline-offset: 3px; }
+.source-title a:hover { color: var(--dot-hot); }
+.source .license { margin-top: 2px; color: var(--dot-hot); font-size: 12px; letter-spacing: 0.02em; }
+.source-use { margin-top: 6px; color: #cdd6ef; }
+.source details { margin-top: 6px; color: var(--muted); font-size: 13px; }
+.source summary { cursor: pointer; }
+.source-used-by { margin-top: 6px; line-height: 1.6; }

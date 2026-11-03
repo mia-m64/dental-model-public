@@ -63,11 +63,16 @@ export function setupAuth(onChange) {
     return { open, available: false };
   }
 
+  // Supabase reports the same session several times (restored on load, signed in,
+  // token refreshed, tab focused again); only pass on real changes of user.
+  let lastUserId;
   supabase.auth.onAuthStateChange((_event, session) => {
     const user = session?.user ?? null;
     $('sign-in').hidden = !!user;
     $('user-menu').hidden = !user;
     $('user-email').textContent = user?.email ?? '';
+    if ((user?.id ?? null) === lastUserId) return;
+    lastUserId = user?.id ?? null;
     // Supabase recommends not awaiting other Supabase calls inside this callback.
     setTimeout(() => onChange(user), 0);
   });

@@ -16,12 +16,15 @@ export class Notes {
     this.displayName = displayName; // (meshName) => label or null
     this.notes = new Map(); // id -> { row, el }
     this.visible = true;
+    this.loadRequest = 0;
     viewer.onFrame(() => this._position());
   }
 
   async load() {
-    this.clear();
+    const request = ++this.loadRequest;
     const { data, error } = await supabase.from('notes').select('*').eq('page', this.page).order('created_at');
+    if (request !== this.loadRequest) return; // a newer load or sign-out happened meanwhile
+    this.clear();
     if (error) {
       console.error(error);
       return;
@@ -30,6 +33,7 @@ export class Notes {
   }
 
   clear() {
+    this.loadRequest++;
     for (const { el } of this.notes.values()) el.remove();
     this.notes.clear();
   }

@@ -1,6 +1,8 @@
 # Dental Anatomy 3D
 
-Interactive 3D model of the mouth, jaws, nerves, vessels and muscles for dental assistants. Desktop browsers only. Click any structure to read a short definition, practical notes for the dental assistant, and the sources behind them.
+Interactive 3D model of the mouth, jaws, nerves, vessels and muscles for dental assistants. Desktop browsers only.
+
+**Live site:** https://mia-m64.github.io/dental-model-public/ Click any structure to read a short definition, practical notes for the dental assistant, and the sources behind them.
 
 This is a personal educational project, made to be free and public so anyone can study from it.
 
@@ -34,6 +36,9 @@ Without `.env.local` the app still works, only sign-in and notes are disabled.
 ## Sign-in and notes (Supabase)
 - Database schema and privacy rules: `supabase/migrations/`. Every note row belongs to one user, and row-level security only lets that user read, edit or delete it.
 - To go live: create a project at supabase.com, run the migration (`supabase link` then `supabase db push`), and put the project URL and **publishable** key in `.env.local`. Never put the secret/service-role key in the app or the repo.
+
+## Publishing (GitHub Pages)
+`.github/workflows/pages.yml` builds the site and publishes it on every push to `main` of the public repo. It reads the Supabase URL and **publishable** key from repo variables (`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`) and refuses to build with any other kind of key.
 
 ## How the content gets into the app
 | What | Where it comes from | File in this repo |
